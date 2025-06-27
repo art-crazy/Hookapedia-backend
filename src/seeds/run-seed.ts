@@ -27,7 +27,7 @@ async function runSeed() {
     entities: [Recipe, Category],
     synchronize: false,
     migrations: ['src/migrations/*.ts'],
-    migrationsRun: true,
+    migrationsRun: false,
     ssl: {
       rejectUnauthorized: false
     },

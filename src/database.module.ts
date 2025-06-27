@@ -11,7 +11,7 @@ const dbConfig: DataSourceOptions = {
   database: process.env.DB_DATABASE,
   synchronize: false,
   migrations: ['src/migrations/*.js'],
-  migrationsRun: true,
+  migrationsRun: false,
   ssl: {
     rejectUnauthorized: false
   },

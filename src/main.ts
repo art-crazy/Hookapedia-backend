@@ -33,8 +33,8 @@
 //
 //   // Swagger конфигурация
 //   const config = new DocumentBuilder()
-//     .setTitle('Nom Nom Nom API')
-//     .setDescription('Документация API для бэкенда Nom Nom Nom')
+//     .setTitle('Hookapedia API')
+//     .setDescription('Документация API для бэкенда Hookapedia')
 //     .setVersion('1.0')
 //     .addBearerAuth()
 //     .build();
@@ -42,7 +42,7 @@
 //   const document = SwaggerModule.createDocument(app, config);
 //
 //   SwaggerModule.setup('api/docs', app, document, {
-//     customSiteTitle: 'Nom Nom Nom API - Документация',
+//     customSiteTitle: 'Hookapedia API - Документация',
 //     swaggerOptions: {
 //       persistAuthorization: true,
 //     },
@@ -100,8 +100,8 @@ async function bootstrap() {
 
   // Конфигурация Swagger документации
   const config = new DocumentBuilder()
-    .setTitle('Nom Nom Nom API') // Заголовок документации
-    .setDescription('API документация для Nom Nom Nom') // Описание
+    .setTitle('Hookapedia API') // Заголовок документации
+    .setDescription('API документация для Hookapedia') // Описание
     .setVersion('1.0') // Версия API
     .addBearerAuth() // Добавляем поддержку Bearer авторизации
     .build(); // Собираем конфигурацию
