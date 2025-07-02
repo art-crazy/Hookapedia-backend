@@ -29,19 +29,19 @@ jobs:
             - name: Copy files to server via SSH
               uses: appleboy/scp-action@v0.1.7
               with:
-                  host: ${{ secrets.SSH_HOST }}
+                  host: ${{ secrets.SERVER_IP }}
                   username: ${{ secrets.SSH_USER }}
                   key: ${{ secrets.SSH_PRIVATE_KEY }}
                   source: "dist/*"
-                  target: ${{ secrets.DEPLOY_PATH }}
+                  target: /var/www/Hookapedia-backend
 
             - name: Run deploy script on server
               uses: appleboy/ssh-action@v1.0.3
               with:
-                  host: ${{ secrets.SSH_HOST }}
+                  host: ${{ secrets.SERVER_IP }}
                   username: ${{ secrets.SSH_USER }}
                   key: ${{ secrets.SSH_PRIVATE_KEY }}
                   script: |
-                      cd ${{ secrets.DEPLOY_PATH }}
+                      cd /var/www/Hookapedia-backend
                       npm install --production
                       pm2 reload ecosystem.config.js || pm2 start ecosystem.config.js

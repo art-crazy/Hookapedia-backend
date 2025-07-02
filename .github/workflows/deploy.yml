@@ -65,7 +65,7 @@
 #            set -ex  # Enable debug mode
 #
 #            # Go to app directory
-#            cd /var/www/hookapedia-api
+#            cd /var/www/Hookapedia-backend
 #
 #            # Install dependencies (production only)
 #            npm ci --production
