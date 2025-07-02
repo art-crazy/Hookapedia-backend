@@ -1,29 +1,35 @@
+# Hookapedia Backend
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+<p align="center">Backend API для приложения Hookapedia - каталога рецептов для кальяна</p>
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 📋 Описание
 
-## Description
+Backend API построен на NestJS фреймворке с использованием TypeScript. Предоставляет RESTful API для управления рецептами кальяна, коллекциями и категориями.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 🚀 Технологии
+
+- **NestJS** - Node.js фреймворк
+- **TypeScript** - Типизированный JavaScript
+- **PostgreSQL** - База данных
+- **TypeORM** - ORM для работы с БД
+- **Docker** - Контейнеризация
+- **GitHub Actions** - CI/CD
+
+## 🏗️ Архитектура
+
+```
+src/
+├── api/           # API контроллеры и DTO
+├── entities/      # TypeORM сущности
+├── modules/       # NestJS модули
+├── services/      # Бизнес-логика
+├── seeds/         # Начальные данные
+└── migrations/    # Миграции БД
+```
 
 ## Project setup
 
@@ -60,6 +66,56 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## 🐳 Docker Setup
+
+### Для разработки
+
+```bash
+# Запуск development окружения
+make dev
+
+# Или вручную
+docker-compose -f docker-compose.dev.yml up -d --build
+```
+
+### Для продакшна
+
+```bash
+# Запуск production окружения
+make prod
+
+# Или вручную
+docker-compose up -d --build
+```
+
+### Полезные команды
+
+```bash
+make help          # Показать все доступные команды
+make logs          # Просмотр логов
+make shell         # Войти в контейнер приложения
+make db-shell      # Войти в PostgreSQL
+make clean         # Удалить все контейнеры и образы
+```
+
+**Порты:**
+- Production: `http://localhost:3000`
+- Development: `http://localhost:3001` (с hot reload)
+- Database: `localhost:5432` (prod) / `localhost:5433` (dev)
+
+Подробную документацию по Docker см. в [DOCKER.md](./DOCKER.md)
+
+## 🚀 CI/CD
+
+Проект настроен для автоматического деплоя через GitHub Actions:
+
+1. **Build** - Собирает Docker образ и загружает в GitHub Container Registry
+2. **Deploy** - Автоматически деплоит на сервер при push в master
+
+### Настройка секретов
+
+Для работы CI/CD настройте GitHub Secrets согласно [GITHUB_SECRETS.md](./GITHUB_SECRETS.md)
 
 ## Deployment
 

@@ -20,6 +20,7 @@ jobs:
     outputs:
       image-tag: ${{ steps.meta.outputs.tags }}
       image-digest: ${{ steps.build.outputs.digest }}
+      image-main-tag: ${{ steps.extract-tag.outputs.main-tag }}
     
     steps:
       - name: Checkout code
@@ -41,10 +42,8 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=ref,event=branch
-            type=ref,event=pr
-            type=sha,prefix=sha-{{date 'YYYYMMDD'}}-
             type=raw,value=latest,enable={{is_default_branch}}
+            type=sha,prefix={{branch}}-
 
       - name: Build and push Docker image
         id: build
@@ -57,6 +56,14 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           platforms: linux/amd64,linux/arm64
+
+      - name: Extract main tag
+        id: extract-tag
+        run: |
+          # Extract the first tag from the list
+          MAIN_TAG=$(echo "${{ steps.meta.outputs.tags }}" | head -n1)
+          echo "main-tag=$MAIN_TAG" >> $GITHUB_OUTPUT
+          echo "Main tag: $MAIN_TAG"
 
   deploy:
     needs: build
@@ -75,7 +82,7 @@ jobs:
             echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
             
             # Pull the latest image
-            docker pull ${{ needs.build.outputs.image-tag }}
+            docker pull ${{ needs.build.outputs.image-main-tag }}
             
             # Stop and remove old container if exists
             docker stop hookapedia-backend || true
@@ -92,7 +99,7 @@ jobs:
               -e DB_USERNAME=${{ secrets.DB_USERNAME }} \
               -e DB_PASSWORD=${{ secrets.DB_PASSWORD }} \
               -e DB_NAME=${{ secrets.DB_NAME }} \
-              ${{ needs.build.outputs.image-tag }}
+              ${{ needs.build.outputs.image-main-tag }}
             
             # Clean up old images
             docker image prune -f
