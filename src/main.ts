@@ -59,11 +59,12 @@
 
 // Импорт необходимых модулей и библиотек
 import * as dotenv from 'dotenv';
-dotenv.config();
 import { NestFactory } from '@nestjs/core'; // Основной класс для создания NestJS приложения
 import { AppModule } from './app.module'; // Корневой модуль приложения
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger'; // Модули для Swagger документации
-import { NestExpressApplication } from '@nestjs/platform-express'; // Тип для приложения Express
+import { NestExpressApplication } from '@nestjs/platform-express';
+
+dotenv.config();
 
 // Основная функция запуска приложения
 async function bootstrap() {
@@ -78,9 +79,14 @@ async function bootstrap() {
   // Настраиваем CORS (механизм безопасности браузеров)
   app.enableCors({
     origin: (origin, callback) => {
-      if (!origin ||
-        ['https://chto-prigotovit.ru', 'https://www.chto-prigotovit.ru'].includes(origin) ||
-        /^http:\/\/localhost:\d+$/.test(origin)) {
+      if (
+        !origin ||
+        [
+          'https://chto-prigotovit.ru',
+          'https://www.chto-prigotovit.ru',
+        ].includes(origin) ||
+        /^http:\/\/localhost:\d+$/.test(origin)
+      ) {
         callback(null, true);
       } else {
         callback(new Error('Not allowed by CORS'));
@@ -108,7 +114,7 @@ async function bootstrap() {
 
   // Создаем Swagger документ на основе конфигурации и приложения
   const document = SwaggerModule.createDocument(app, config);
-
+  console.log('тест');
   // Настраиваем Swagger UI (веб-интерфейс документации)
   SwaggerModule.setup('api/docs', app, document, {
     customSiteTitle: 'API Documentation',
@@ -123,8 +129,6 @@ async function bootstrap() {
     //   '/api/docs/swagger-ui-standalone-preset.js',
     // ],
   });
-
-
 
   // Запускаем приложение на указанном порте (или 3000 по умолчанию)
   await app.listen(process.env.PORT || 3001);
