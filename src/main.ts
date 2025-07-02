@@ -70,7 +70,7 @@ dotenv.config();
 async function bootstrap() {
   // Создаем экземпляр приложения NestJS с использованием Express под капотом
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
-
+  console.log('прикол и тест');
   // Устанавливаем глобальный префикс для всех API маршрутов (все маршруты будут начинаться с /api)
   app.setGlobalPrefix('api', {
     // exclude: ['docs', 'docs-json'], // явно исключаем swagger-роуты
