@@ -114,7 +114,7 @@ async function bootstrap() {
 
   // Создаем Swagger документ на основе конфигурации и приложения
   const document = SwaggerModule.createDocument(app, config);
-  console.log('тест');
+  console.log('ass');
   // Настраиваем Swagger UI (веб-интерфейс документации)
   SwaggerModule.setup('api/docs', app, document, {
     customSiteTitle: 'API Documentation',
