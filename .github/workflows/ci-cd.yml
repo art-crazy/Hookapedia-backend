@@ -107,3 +107,4 @@ jobs:
             
             # Show running containers
             docker ps
+            docker network connect my_network hookapedia-backend
