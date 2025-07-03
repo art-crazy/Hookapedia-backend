@@ -66,7 +66,6 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger'; // Модул�
 import { NestExpressApplication } from '@nestjs/platform-express';
 
 
-console.log('пушу')
 // Основная функция запуска приложения
 async function bootstrap() {
   // Создаем экземпляр приложения NestJS с использованием Express под капотом
