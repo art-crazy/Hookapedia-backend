@@ -59,12 +59,13 @@
 
 // Импорт необходимых модулей и библиотек
 import * as dotenv from 'dotenv';
+dotenv.config();
 import { NestFactory } from '@nestjs/core'; // Основной класс для создания NestJS приложения
 import { AppModule } from './app.module'; // Корневой модуль приложения
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger'; // Модули для Swagger документации
 import { NestExpressApplication } from '@nestjs/platform-express';
 
-dotenv.config();
+
 
 // Основная функция запуска приложения
 async function bootstrap() {
