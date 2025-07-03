@@ -46,7 +46,7 @@ build:
 up:
 	@echo "$(GREEN)Starting production containers...$(NC)"
 	$(DOCKER_COMPOSE) up -d
-	@echo "$(GREEN)Containers started! Backend available at http://localhost:3000$(NC)"
+	@echo "$(GREEN)Containers started! Backend available at http://localhost:3001$(NC)"
 
 down:
 	@echo "$(YELLOW)Stopping production containers...$(NC)"

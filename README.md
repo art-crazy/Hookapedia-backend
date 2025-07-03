@@ -100,7 +100,7 @@ make clean         # Удалить все контейнеры и образы
 ```
 
 **Порты:**
-- Production: `http://localhost:3000`
+- Production: `http://localhost:3001`
 - Development: `http://localhost:3001` (с hot reload)
 - Database: `localhost:5432` (prod) / `localhost:5433` (dev)
 
