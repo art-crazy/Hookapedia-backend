@@ -95,7 +95,7 @@ jobs:
               --restart unless-stopped \
               -p 3000:3000 \
               -e NODE_ENV=production \
-              -e DB_HOST=${{ secrets.DB_HOST }} \
+              -e DB_HOST= postgres \
               -e DB_PORT=${{ secrets.DB_PORT }} \
               -e DB_USERNAME=${{ secrets.DB_USERNAME }} \
               -e DB_PASSWORD=${{ secrets.DB_PASSWORD }} \
