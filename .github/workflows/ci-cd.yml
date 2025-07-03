@@ -99,7 +99,7 @@ jobs:
               -e DB_PORT=${{ secrets.DB_PORT }} \
               -e DB_USERNAME=${{ secrets.DB_USERNAME }} \
               -e DB_PASSWORD=${{ secrets.DB_PASSWORD }} \
-              -e DB_NAME=${{ secrets.DB_NAME }} \
+              -e DB_DATABASE=${{ secrets.DB_DATABASE }} \
               ${{ needs.build.outputs.image-main-tag }}
             
             # Clean up old images
