@@ -43,16 +43,55 @@ export async function seedRecipes(dataSource: DataSource) {
   const categoryRepository = dataSource.getRepository(Category);
   const recipeRepository = dataSource.getRepository(Recipe);
 
-  // Создаем категории, если они еще не существуют
+  // Создаем категории для кальянов, если они еще не существуют
   const categories = [
-    { slug: 'main-dishes', title: 'Основные блюда', type: 'dish' as const },
-    { slug: 'snacks', title: 'Закуски', type: 'dish' as const },
-    { slug: 'dumplings', title: 'Пельмени', type: 'subcategory' as const },
-    { slug: 'street-food', title: 'Уличная еда', type: 'subcategory' as const },
-    { slug: 'russian', title: 'Русская кухня', type: 'cuisine' as const },
-    { slug: 'fusion', title: 'Фьюжн', type: 'cuisine' as const },
-    { slug: 'traditional', title: 'Традиционная кухня', type: 'diet' as const },
-    { slug: 'meat', title: 'Мясные блюда', type: 'diet' as const }
+    // Основные типы смесей
+    { slug: 'light-mixes', title: 'Легкие смеси', type: 'dish' as const },
+    { slug: 'fruity-mixes', title: 'Фруктовые смеси', type: 'dish' as const },
+    { slug: 'berry-mixes', title: 'Ягодные смеси', type: 'dish' as const },
+    { slug: 'dessert-mixes', title: 'Десертные смеси', type: 'dish' as const },
+    { slug: 'classic-mixes', title: 'Классические смеси', type: 'dish' as const },
+    { slug: 'cool-mixes', title: 'Холодные смеси', type: 'dish' as const },
+    { slug: 'premium-mixes', title: 'Премиум смеси', type: 'dish' as const },
+    { slug: 'experimental-mixes', title: 'Экспериментальные смеси', type: 'dish' as const },
+    { slug: 'tropical-mixes', title: 'Тропические смеси', type: 'dish' as const },
+    { slug: 'elite-mixes', title: 'Элитные смеси', type: 'dish' as const },
+    
+    // Подкатегории по вкусам
+    { slug: 'citrus', title: 'Цитрусовые', type: 'subcategory' as const },
+    { slug: 'tropical', title: 'Тропические', type: 'subcategory' as const },
+    { slug: 'forest-berries', title: 'Лесные ягоды', type: 'subcategory' as const },
+    { slug: 'coffee', title: 'Кофейные', type: 'subcategory' as const },
+    { slug: 'apple', title: 'Яблочные', type: 'subcategory' as const },
+    { slug: 'grape', title: 'Виноградные', type: 'subcategory' as const },
+    { slug: 'chocolate', title: 'Шоколадные', type: 'subcategory' as const },
+    { slug: 'herbs', title: 'Травяные', type: 'subcategory' as const },
+    { slug: 'stone-fruits', title: 'Косточковые фрукты', type: 'subcategory' as const },
+    { slug: 'floral', title: 'Цветочные', type: 'subcategory' as const },
+    
+    // Кухни мира
+    { slug: 'arabic', title: 'Арабская традиция', type: 'cuisine' as const },
+    { slug: 'caribbean', title: 'Карибская', type: 'cuisine' as const },
+    { slug: 'european', title: 'Европейская', type: 'cuisine' as const },
+    { slug: 'french', title: 'Французская', type: 'cuisine' as const },
+    { slug: 'turkish', title: 'Турецкая', type: 'cuisine' as const },
+    { slug: 'mediterranean', title: 'Средиземноморская', type: 'cuisine' as const },
+    { slug: 'italian', title: 'Итальянская', type: 'cuisine' as const },
+    { slug: 'greek', title: 'Греческая', type: 'cuisine' as const },
+    { slug: 'brazilian', title: 'Бразильская', type: 'cuisine' as const },
+    { slug: 'persian', title: 'Персидская', type: 'cuisine' as const },
+    
+    // Специальные категории
+    { slug: 'beginner', title: 'Для начинающих', type: 'diet' as const },
+    { slug: 'sweet', title: 'Сладкие', type: 'diet' as const },
+    { slug: 'tart', title: 'Кислые', type: 'diet' as const },
+    { slug: 'gourmet', title: 'Гурманские', type: 'diet' as const },
+    { slug: 'traditional', title: 'Традиционные', type: 'diet' as const },
+    { slug: 'refreshing', title: 'Освежающие', type: 'diet' as const },
+    { slug: 'premium', title: 'Премиум', type: 'diet' as const },
+    { slug: 'unusual', title: 'Необычные', type: 'diet' as const },
+    { slug: 'exotic', title: 'Экзотические', type: 'diet' as const },
+    { slug: 'connoisseur', title: 'Для знатоков', type: 'diet' as const }
   ];
 
   const savedCategories = new Map<string, Category>();
