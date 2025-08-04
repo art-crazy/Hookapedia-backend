@@ -6,7 +6,6 @@ import { CollectionModule } from './modules/collection.module';
 import { CategoryService } from './services/category.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Category } from './entities/category.entity';
-import { AppController } from './app.controller';
 
 @Module({
   imports: [
@@ -18,7 +17,6 @@ import { AppController } from './app.controller';
     CollectionModule,
     TypeOrmModule.forFeature([Category]),
   ],
-  controllers: [AppController],
   providers: [CategoryService],
 })
-export class AppModule {} 
+export class AppModule {}
