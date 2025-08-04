@@ -15,7 +15,7 @@ interface Nutrition {
   fat: { value: number; unit: Unit };
   carbs: { value: number; unit: Unit };
 }
-console.log('пушу')
+
 // Интерфейс для рецепта
 export interface Recipe {
   id: number;

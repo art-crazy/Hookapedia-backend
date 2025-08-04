@@ -93,7 +93,7 @@ jobs:
             docker run -d \
               --name hookapedia-backend \
               --restart unless-stopped \
-              -p 3000:3000 \
+              -p 3001:3001 \
               -e NODE_ENV=production \
               -e DB_HOST=postgres \
               -e DB_PORT=${{ secrets.DB_PORT }} \
@@ -107,3 +107,4 @@ jobs:
             
             # Show running containers
             docker ps
+            docker network connect my_network hookapedia-backend

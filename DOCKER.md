@@ -88,7 +88,7 @@ make health        # Проверка здоровья сервисов
 ## Порты
 
 ### Production
-- **3000** - Backend API
+- **3001** - Backend API
 - **5432** - PostgreSQL
 - **6379** - Redis
 
@@ -112,7 +112,7 @@ DB_NAME=hookapedia
 
 # Application
 NODE_ENV=development
-PORT=3000
+PORT=3001
 
 # Redis (если используется)
 REDIS_HOST=redis
@@ -212,7 +212,7 @@ docker stop hookapedia-backend || true
 docker rm hookapedia-backend || true
 docker run -d --name hookapedia-backend \
   --restart unless-stopped \
-  -p 3000:3000 \
+  -p 3001:3001 \
   -e NODE_ENV=production \
   -e DB_HOST=your_db_host \
   ghcr.io/your-username/hookapedia-backend:latest
@@ -225,7 +225,7 @@ docker run -d --name hookapedia-backend \
 1. **Порт уже занят**
    ```bash
    # Проверьте какой процесс использует порт
-   lsof -i :3000
+   lsof -i :3001
    # Остановите конфликтующие контейнеры
    make down
    ```

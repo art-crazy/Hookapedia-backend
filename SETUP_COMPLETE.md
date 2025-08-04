@@ -120,7 +120,7 @@ ssh korobkov@109.205.56.225 "docker logs hookapedia-backend -f"
 ```
 
 ### Health check
-- Production: http://109.205.56.225:3000/health
+- Production: http://109.205.56.225:3001/health
 - Local dev: http://localhost:3001/health
 
 ## 🎯 Endpoints
@@ -132,7 +132,7 @@ ssh korobkov@109.205.56.225 "docker logs hookapedia-backend -f"
 - **GET /api/collections** - Коллекции
 
 ### Swagger Documentation
-- Production: http://109.205.56.225:3000/api
+- Production: http://109.205.56.225:3001/api
 - Local: http://localhost:3001/api
 
 ## 🔧 Полезные команды

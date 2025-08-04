@@ -19,7 +19,7 @@ services:
     build: .
     container_name: hookapedia-backend
     ports:
-      - '3000:3000'
+      - '3001:3001'
     depends_on:
       - postgres
     environment:
