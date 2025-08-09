@@ -56,7 +56,7 @@ export async function seedRecipes(dataSource: DataSource) {
     { slug: 'experimental-mixes', title: 'Экспериментальные смеси', type: 'dish' as const },
     { slug: 'tropical-mixes', title: 'Тропические смеси', type: 'dish' as const },
     { slug: 'elite-mixes', title: 'Элитные смеси', type: 'dish' as const },
-    
+
     // Подкатегории по вкусам
     { slug: 'citrus', title: 'Цитрусовые', type: 'subcategory' as const },
     { slug: 'tropical', title: 'Тропические', type: 'subcategory' as const },
@@ -68,7 +68,7 @@ export async function seedRecipes(dataSource: DataSource) {
     { slug: 'herbs', title: 'Травяные', type: 'subcategory' as const },
     { slug: 'stone-fruits', title: 'Косточковые фрукты', type: 'subcategory' as const },
     { slug: 'floral', title: 'Цветочные', type: 'subcategory' as const },
-    
+
     // Кухни мира
     { slug: 'arabic', title: 'Арабская традиция', type: 'cuisine' as const },
     { slug: 'caribbean', title: 'Карибская', type: 'cuisine' as const },
@@ -80,7 +80,7 @@ export async function seedRecipes(dataSource: DataSource) {
     { slug: 'greek', title: 'Греческая', type: 'cuisine' as const },
     { slug: 'brazilian', title: 'Бразильская', type: 'cuisine' as const },
     { slug: 'persian', title: 'Персидская', type: 'cuisine' as const },
-    
+
     // Специальные категории
     { slug: 'beginner', title: 'Для начинающих', type: 'diet' as const },
     { slug: 'sweet', title: 'Сладкие', type: 'diet' as const },
@@ -132,34 +132,18 @@ export async function seedRecipes(dataSource: DataSource) {
       if (!existingRecipe) {
         console.log(`Creating new recipe: ${recipeData.title}`);
 
-        // Преобразуем категории из списков в массивы
-        const dishCategories = Object.values(recipeData.dishCategoriesList || {}).map(cat =>
-          savedCategories.get(cat.id) || null
-        ).filter((cat): cat is Category => cat !== null);
-
-        const subcategories = Object.values(recipeData.dishCategoriesSubList || {}).map(cat =>
-          savedCategories.get(cat.id) || null
-        ).filter((cat): cat is Category => cat !== null);
-
-        const cuisineCategories = Object.values(recipeData.cuisineCategoriesList || {}).map(cat =>
-          savedCategories.get(cat.id) || null
-        ).filter((cat): cat is Category => cat !== null);
-
-        const dietCategories = Object.values(recipeData.dietCategoriesList || {}).map(cat =>
-          savedCategories.get(cat.id) || null
-        ).filter((cat): cat is Category => cat !== null);
-
-        const filteredRecipeData = {
-          ...recipeData,
-          dishCategories,
-          subcategories,
-          cuisineCategories,
-          dietCategories
-        };
-
-        const recipe = recipeRepository.create(filteredRecipeData as Partial<Recipe>);
-        const savedRecipe = await recipeRepository.save(recipe);
-        console.log(`Recipe created with ID: ${savedRecipe.id}`);
+        // Создаём рецепт с конкретным ID через raw query
+        await recipeRepository.query(`
+          INSERT INTO recipes (id, name, title, description, "cookTime", difficulty, nutrition, cuisine, servings, ingredients, steps, "imageMain", categories, rating, reviews, "createdAt", "updatedAt")
+          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, NOW(), NOW())
+        `, [
+          recipeData.id, recipeData.name, recipeData.title, recipeData.description,
+          recipeData.cookTime, recipeData.difficulty, JSON.stringify(recipeData.nutrition),
+          recipeData.cuisine, recipeData.servings, JSON.stringify(recipeData.ingredients),
+          JSON.stringify(recipeData.steps), recipeData.imageMain, recipeData.categories.join(','),
+          recipeData.rating, recipeData.reviews
+        ]);
+        console.log(`Recipe created with ID: ${recipeData.id}`);
       } else {
         console.log(`Recipe already exists: ${recipeData.title}`);
       }
