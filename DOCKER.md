@@ -10,7 +10,6 @@
 ├── docker-compose.yml      # Production Docker Compose
 ├── docker-compose.dev.yml  # Development Docker Compose
 ├── .dockerignore           # Docker ignore file
-├── healthcheck.js          # Health check script
 └── Makefile               # Automation commands
 ```
 
@@ -133,17 +132,6 @@ DB_USERNAME=your_db_user
 DB_PASSWORD=your_db_password
 DB_NAME=hookapedia
 GITHUB_TOKEN=automatic_token
-```
-
-## Health Check
-
-Приложение включает health check на эндпоинте `/health`. Добавьте в ваш NestJS app controller:
-
-```typescript
-@Get('health')
-getHealth() {
-  return { status: 'ok', timestamp: new Date().toISOString() };
-}
 ```
 
 ## Мониторинг
