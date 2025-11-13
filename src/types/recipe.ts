@@ -16,6 +16,8 @@ interface Nutrition {
   carbs: { value: number; unit: Unit };
 }
 
+console.log('тест')
+
 // Интерфейс для рецепта
 export interface Recipe {
   id: number;
