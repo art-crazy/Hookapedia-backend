@@ -1,4 +1,4 @@
-import { DataSource } from 'typeorm';
+import { DataSource, In } from 'typeorm';
 import { Recipe } from '@/entities/recipe.entity';
 import { Category } from '@/entities/category.entity';
 import * as fs from 'fs';
@@ -95,6 +95,7 @@ export async function seedRecipes(dataSource: DataSource) {
   ];
 
   const savedCategories = new Map<string, Category>();
+  const allowedCategorySlugs = new Set(categories.map(category => category.slug));
 
   for (const categoryData of categories) {
     let category = await categoryRepository.findOne({ where: { slug: categoryData.slug } });
@@ -109,12 +110,22 @@ export async function seedRecipes(dataSource: DataSource) {
     savedCategories.set(categoryData.slug, category);
   }
 
+  const existingCategories = await categoryRepository.find({ select: ['slug', 'id'] });
+  const obsoleteCategories = existingCategories.filter(category => !allowedCategorySlugs.has(category.slug));
+  if (obsoleteCategories.length > 0) {
+    const obsoleteSlugs = obsoleteCategories.map(category => category.slug);
+    console.log(`Removing obsolete categories: ${obsoleteSlugs.join(', ')}`);
+    await categoryRepository.delete({ slug: In(obsoleteSlugs) });
+  }
+
   console.log('Starting to load recipes from data files...');
 
   // Получаем список всех файлов с рецептами
   const dataDir = path.join(__dirname, '../data');
   const recipeFiles = fs.readdirSync(dataDir)
     .filter(file => file.endsWith('.ts') && file !== 'index.ts');
+
+  const seedRecipeNames = new Set<string>();
 
   // Загружаем и обрабатываем каждый файл
   for (const file of recipeFiles) {
@@ -126,6 +137,7 @@ export async function seedRecipes(dataSource: DataSource) {
     const recipeArray = Object.values(recipes);
 
     for (const recipeData of recipeArray) {
+      seedRecipeNames.add(recipeData.name);
       console.log(`Processing recipe: ${recipeData.title}`);
       const existingRecipe = await recipeRepository.findOne({ where: { name: recipeData.name } });
 
@@ -145,9 +157,37 @@ export async function seedRecipes(dataSource: DataSource) {
         ]);
         console.log(`Recipe created with ID: ${recipeData.id}`);
       } else {
-        console.log(`Recipe already exists: ${recipeData.title}`);
+        console.log(`Recipe already exists: ${recipeData.title}, updating data`);
+        await recipeRepository.update(existingRecipe.id, {
+          title: recipeData.title,
+          description: recipeData.description,
+          cookTime: recipeData.cookTime,
+          difficulty: recipeData.difficulty,
+          nutrition: recipeData.nutrition,
+          cuisine: recipeData.cuisine,
+          servings: recipeData.servings,
+          ingredients: recipeData.ingredients,
+          steps: recipeData.steps,
+          imageMain: recipeData.imageMain,
+          categories: recipeData.categories,
+          rating: recipeData.rating,
+          reviews: recipeData.reviews
+        });
       }
     }
+  }
+
+  // Удаляем рецепты, отсутствующие в актуальных данных (например, блюда еды)
+  if (seedRecipeNames.size > 0) {
+    const existingRecipes = await recipeRepository.find({ select: ['id', 'name'] });
+    const obsoleteRecipes = existingRecipes.filter(recipe => !seedRecipeNames.has(recipe.name));
+    if (obsoleteRecipes.length > 0) {
+      const obsoleteIds = obsoleteRecipes.map(recipe => recipe.id);
+      console.log(`Removing obsolete recipes: ${obsoleteIds.length} items`);
+      await recipeRepository.delete({ id: In(obsoleteIds) });
+    }
+  } else {
+    console.warn('No seed recipes loaded; skipping cleanup of obsolete recipes.');
   }
 
   console.log('Recipe seeding completed');
