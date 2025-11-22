@@ -4,7 +4,7 @@ import { Recipe, RecipeCollection, Unit } from '../../types';
 export const recipes: RecipeCollection = {
   704: {
     id: 704,
-    name: 'deserty-ваниль-s-myatoy-bez-kholoda-704',
+    name: 'deserty-ваниль-s-myatoy-bez-kholoda',
     title: 'Ваниль-карамель',
     description: 'Ваниль-карамель  и мятой',
     cookTime: '12 минут',
@@ -44,7 +44,7 @@ export const recipes: RecipeCollection = {
 
   705: {
     id: 705,
-    name: 'deserty-шоколад-s-myatoy-legkiy-kholod-705',
+    name: 'deserty-шоколад-s-myatoy-legkiy-kholod',
     title: 'Шоколад-крем с лёгким холодком',
     description: 'Шоколад-крем с лёгким холодком и мятой',
     cookTime: '13 минут',
@@ -86,7 +86,7 @@ export const recipes: RecipeCollection = {
 
   706: {
     id: 706,
-    name: 'deserty-печенье-s-myatoy-silnyy-kholod-706',
+    name: 'deserty-печенье-s-myatoy-silnyy-kholod',
     title: 'Печенье-молоко с сильным ледяным эффектом',
     description: 'Печенье-молоко с сильным ледяным эффектом и мятой',
     cookTime: '14 минут',
@@ -128,7 +128,7 @@ export const recipes: RecipeCollection = {
 
   707: {
     id: 707,
-    name: 'deserty-ваниль-bez-myaty-bez-kholoda-707',
+    name: 'deserty-ваниль-bez-myaty-bez-kholoda',
     title: 'Ваниль-карамель',
     description: 'Ваниль-карамель',
     cookTime: '15 минут',
@@ -166,7 +166,7 @@ export const recipes: RecipeCollection = {
 
   708: {
     id: 708,
-    name: 'deserty-шоколад-bez-myaty-legkiy-kholod-708',
+    name: 'deserty-шоколад-bez-myaty-legkiy-kholod',
     title: 'Шоколад-крем с лёгким холодком',
     description: 'Шоколад-крем с лёгким холодком',
     cookTime: '16 минут',
@@ -206,7 +206,7 @@ export const recipes: RecipeCollection = {
 
   709: {
     id: 709,
-    name: 'deserty-печенье-bez-myaty-silnyy-kholod-709',
+    name: 'deserty-печенье-bez-myaty-silnyy-kholod',
     title: 'Печенье-молоко с сильным ледяным эффектом',
     description: 'Печенье-молоко с сильным ледяным эффектом',
     cookTime: '17 минут',

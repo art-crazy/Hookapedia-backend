@@ -4,7 +4,7 @@ import { Recipe, RecipeCollection, Unit } from '../../types';
 export const recipes: RecipeCollection = {
   674: {
     id: 674,
-    name: 'pryanosti-travy-мята-s-myatoy-bez-kholoda-674',
+    name: 'pryanosti-travy-мята-s-myatoy-bez-kholoda',
     title: 'Мята-эвкалипт',
     description: 'Мята-эвкалипт  и мятой',
     cookTime: '14 минут',
@@ -44,7 +44,7 @@ export const recipes: RecipeCollection = {
 
   675: {
     id: 675,
-    name: 'pryanosti-travy-корица-s-myatoy-legkiy-kholod-675',
+    name: 'pryanosti-travy-корица-s-myatoy-legkiy-kholod',
     title: 'Корица-гвоздика с лёгким холодком',
     description: 'Корица-гвоздика с лёгким холодком и мятой',
     cookTime: '15 минут',
@@ -86,7 +86,7 @@ export const recipes: RecipeCollection = {
 
   676: {
     id: 676,
-    name: 'pryanosti-travy-базилик-s-myatoy-silnyy-kholod-676',
+    name: 'pryanosti-travy-базилик-s-myatoy-silnyy-kholod',
     title: 'Базилик-тимьян с сильным ледяным эффектом',
     description: 'Базилик-тимьян с сильным ледяным эффектом и мятой',
     cookTime: '16 минут',
@@ -128,7 +128,7 @@ export const recipes: RecipeCollection = {
 
   677: {
     id: 677,
-    name: 'pryanosti-travy-мята-bez-myaty-bez-kholoda-677',
+    name: 'pryanosti-travy-мята-bez-myaty-bez-kholoda',
     title: 'Мята-эвкалипт',
     description: 'Мята-эвкалипт',
     cookTime: '17 минут',
@@ -166,7 +166,7 @@ export const recipes: RecipeCollection = {
 
   678: {
     id: 678,
-    name: 'pryanosti-travy-корица-bez-myaty-legkiy-kholod-678',
+    name: 'pryanosti-travy-корица-bez-myaty-legkiy-kholod',
     title: 'Корица-гвоздика с лёгким холодком',
     description: 'Корица-гвоздика с лёгким холодком',
     cookTime: '18 минут',
@@ -206,7 +206,7 @@ export const recipes: RecipeCollection = {
 
   679: {
     id: 679,
-    name: 'pryanosti-travy-базилик-bez-myaty-silnyy-kholod-679',
+    name: 'pryanosti-travy-базилик-bez-myaty-silnyy-kholod',
     title: 'Базилик-тимьян с сильным ледяным эффектом',
     description: 'Базилик-тимьян с сильным ледяным эффектом',
     cookTime: '19 минут',

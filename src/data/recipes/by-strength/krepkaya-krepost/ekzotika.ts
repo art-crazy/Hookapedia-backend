@@ -4,7 +4,7 @@ import { Recipe, RecipeCollection, Unit } from '../../types';
 export const recipes: RecipeCollection = {
   752: {
     id: 752,
-    name: 'ekzotika-манго-s-myatoy-bez-kholoda-752',
+    name: 'ekzotika-манго-s-myatoy-bez-kholoda',
     title: 'Манго-папайя',
     description: 'Манго-папайя  и мятой',
     cookTime: '12 минут',
@@ -44,7 +44,7 @@ export const recipes: RecipeCollection = {
 
   753: {
     id: 753,
-    name: 'ekzotika-личи-s-myatoy-legkiy-kholod-753',
+    name: 'ekzotika-личи-s-myatoy-legkiy-kholod',
     title: 'Личи-рамбутан с лёгким холодком',
     description: 'Личи-рамбутан с лёгким холодком и мятой',
     cookTime: '13 минут',
@@ -86,7 +86,7 @@ export const recipes: RecipeCollection = {
 
   754: {
     id: 754,
-    name: 'ekzotika-гуава-s-myatoy-silnyy-kholod-754',
+    name: 'ekzotika-гуава-s-myatoy-silnyy-kholod',
     title: 'Гуава-карамбола с сильным ледяным эффектом',
     description: 'Гуава-карамбола с сильным ледяным эффектом и мятой',
     cookTime: '14 минут',
@@ -128,7 +128,7 @@ export const recipes: RecipeCollection = {
 
   755: {
     id: 755,
-    name: 'ekzotika-манго-bez-myaty-bez-kholoda-755',
+    name: 'ekzotika-манго-bez-myaty-bez-kholoda',
     title: 'Манго-папайя',
     description: 'Манго-папайя',
     cookTime: '15 минут',
@@ -166,7 +166,7 @@ export const recipes: RecipeCollection = {
 
   756: {
     id: 756,
-    name: 'ekzotika-личи-bez-myaty-legkiy-kholod-756',
+    name: 'ekzotika-личи-bez-myaty-legkiy-kholod',
     title: 'Личи-рамбутан с лёгким холодком',
     description: 'Личи-рамбутан с лёгким холодком',
     cookTime: '16 минут',
@@ -206,7 +206,7 @@ export const recipes: RecipeCollection = {
 
   757: {
     id: 757,
-    name: 'ekzotika-гуава-bez-myaty-silnyy-kholod-757',
+    name: 'ekzotika-гуава-bez-myaty-silnyy-kholod',
     title: 'Гуава-карамбола с сильным ледяным эффектом',
     description: 'Гуава-карамбола с сильным ледяным эффектом',
     cookTime: '17 минут',

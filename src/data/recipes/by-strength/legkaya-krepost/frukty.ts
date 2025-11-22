@@ -4,7 +4,7 @@ import { Recipe, RecipeCollection, Unit } from '../../types';
 export const recipes: RecipeCollection = {
   650: {
     id: 650,
-    name: 'frukty-яблоко-s-myatoy-bez-kholoda-650',
+    name: 'frukty-яблоко-s-myatoy-bez-kholoda',
     title: 'Яблоко-груша',
     description: 'Яблоко-груша  и мятой',
     cookTime: '14 минут',
@@ -44,7 +44,7 @@ export const recipes: RecipeCollection = {
 
   651: {
     id: 651,
-    name: 'frukty-персик-s-myatoy-legkiy-kholod-651',
+    name: 'frukty-персик-s-myatoy-legkiy-kholod',
     title: 'Персик-нектарин с лёгким холодком',
     description: 'Персик-нектарин с лёгким холодком и мятой',
     cookTime: '15 минут',
@@ -86,7 +86,7 @@ export const recipes: RecipeCollection = {
 
   652: {
     id: 652,
-    name: 'frukty-виноград-s-myatoy-silnyy-kholod-652',
+    name: 'frukty-виноград-s-myatoy-silnyy-kholod',
     title: 'Виноград-дыня с сильным ледяным эффектом',
     description: 'Виноград-дыня с сильным ледяным эффектом и мятой',
     cookTime: '16 минут',
@@ -128,7 +128,7 @@ export const recipes: RecipeCollection = {
 
   653: {
     id: 653,
-    name: 'frukty-яблоко-bez-myaty-bez-kholoda-653',
+    name: 'frukty-яблоко-bez-myaty-bez-kholoda',
     title: 'Яблоко-груша',
     description: 'Яблоко-груша',
     cookTime: '17 минут',
@@ -166,7 +166,7 @@ export const recipes: RecipeCollection = {
 
   654: {
     id: 654,
-    name: 'frukty-персик-bez-myaty-legkiy-kholod-654',
+    name: 'frukty-персик-bez-myaty-legkiy-kholod',
     title: 'Персик-нектарин с лёгким холодком',
     description: 'Персик-нектарин с лёгким холодком',
     cookTime: '18 минут',
@@ -206,7 +206,7 @@ export const recipes: RecipeCollection = {
 
   655: {
     id: 655,
-    name: 'frukty-виноград-bez-myaty-silnyy-kholod-655',
+    name: 'frukty-виноград-bez-myaty-silnyy-kholod',
     title: 'Виноград-дыня с сильным ледяным эффектом',
     description: 'Виноград-дыня с сильным ледяным эффектом',
     cookTime: '19 минут',

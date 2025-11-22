@@ -4,7 +4,7 @@ import { Recipe, RecipeCollection, Unit } from '../../types';
 export const recipes: RecipeCollection = {
   728: {
     id: 728,
-    name: 'yagody-малина-s-myatoy-bez-kholoda-728',
+    name: 'yagody-малина-s-myatoy-bez-kholoda',
     title: 'Малина-черника',
     description: 'Малина-черника  и мятой',
     cookTime: '12 минут',
@@ -44,7 +44,7 @@ export const recipes: RecipeCollection = {
 
   729: {
     id: 729,
-    name: 'yagody-клубника-s-myatoy-legkiy-kholod-729',
+    name: 'yagody-клубника-s-myatoy-legkiy-kholod',
     title: 'Клубника-ежевика с лёгким холодком',
     description: 'Клубника-ежевика с лёгким холодком и мятой',
     cookTime: '13 минут',
@@ -86,7 +86,7 @@ export const recipes: RecipeCollection = {
 
   730: {
     id: 730,
-    name: 'yagody-вишня-s-myatoy-silnyy-kholod-730',
+    name: 'yagody-вишня-s-myatoy-silnyy-kholod',
     title: 'Вишня-смородина с сильным ледяным эффектом',
     description: 'Вишня-смородина с сильным ледяным эффектом и мятой',
     cookTime: '14 минут',
@@ -128,7 +128,7 @@ export const recipes: RecipeCollection = {
 
   731: {
     id: 731,
-    name: 'yagody-малина-bez-myaty-bez-kholoda-731',
+    name: 'yagody-малина-bez-myaty-bez-kholoda',
     title: 'Малина-черника',
     description: 'Малина-черника',
     cookTime: '15 минут',
@@ -166,7 +166,7 @@ export const recipes: RecipeCollection = {
 
   732: {
     id: 732,
-    name: 'yagody-клубника-bez-myaty-legkiy-kholod-732',
+    name: 'yagody-клубника-bez-myaty-legkiy-kholod',
     title: 'Клубника-ежевика с лёгким холодком',
     description: 'Клубника-ежевика с лёгким холодком',
     cookTime: '16 минут',
@@ -206,7 +206,7 @@ export const recipes: RecipeCollection = {
 
   733: {
     id: 733,
-    name: 'yagody-вишня-bez-myaty-silnyy-kholod-733',
+    name: 'yagody-вишня-bez-myaty-silnyy-kholod',
     title: 'Вишня-смородина с сильным ледяным эффектом',
     description: 'Вишня-смородина с сильным ледяным эффектом',
     cookTime: '17 минут',

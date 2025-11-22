@@ -4,7 +4,7 @@ import { Recipe, RecipeCollection, Unit } from '../../types';
 export const recipes: RecipeCollection = {
   734: {
     id: 734,
-    name: 'tsitrusovye-апельсин-s-myatoy-bez-kholoda-734',
+    name: 'tsitrusovye-апельсин-s-myatoy-bez-kholoda',
     title: 'Апельсин-мандарин',
     description: 'Апельсин-мандарин  и мятой',
     cookTime: '18 минут',
@@ -44,7 +44,7 @@ export const recipes: RecipeCollection = {
 
   735: {
     id: 735,
-    name: 'tsitrusovye-лимон-s-myatoy-legkiy-kholod-735',
+    name: 'tsitrusovye-лимон-s-myatoy-legkiy-kholod',
     title: 'Лимон-лайм с лёгким холодком',
     description: 'Лимон-лайм с лёгким холодком и мятой',
     cookTime: '19 минут',
@@ -86,7 +86,7 @@ export const recipes: RecipeCollection = {
 
   736: {
     id: 736,
-    name: 'tsitrusovye-грейпфрут-s-myatoy-silnyy-kholod-736',
+    name: 'tsitrusovye-грейпфрут-s-myatoy-silnyy-kholod',
     title: 'Грейпфрут-помело с сильным ледяным эффектом',
     description: 'Грейпфрут-помело с сильным ледяным эффектом и мятой',
     cookTime: '12 минут',
@@ -128,7 +128,7 @@ export const recipes: RecipeCollection = {
 
   737: {
     id: 737,
-    name: 'tsitrusovye-апельсин-bez-myaty-bez-kholoda-737',
+    name: 'tsitrusovye-апельсин-bez-myaty-bez-kholoda',
     title: 'Апельсин-мандарин',
     description: 'Апельсин-мандарин',
     cookTime: '13 минут',
@@ -166,7 +166,7 @@ export const recipes: RecipeCollection = {
 
   738: {
     id: 738,
-    name: 'tsitrusovye-лимон-bez-myaty-legkiy-kholod-738',
+    name: 'tsitrusovye-лимон-bez-myaty-legkiy-kholod',
     title: 'Лимон-лайм с лёгким холодком',
     description: 'Лимон-лайм с лёгким холодком',
     cookTime: '14 минут',
@@ -206,7 +206,7 @@ export const recipes: RecipeCollection = {
 
   739: {
     id: 739,
-    name: 'tsitrusovye-грейпфрут-bez-myaty-silnyy-kholod-739',
+    name: 'tsitrusovye-грейпфрут-bez-myaty-silnyy-kholod',
     title: 'Грейпфрут-помело с сильным ледяным эффектом',
     description: 'Грейпфрут-помело с сильным ледяным эффектом',
     cookTime: '15 минут',
