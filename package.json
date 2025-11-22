@@ -18,7 +18,18 @@
     "test:cov": "jest --coverage --passWithNoTests",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json --passWithNoTests",
-    "seed": "ts-node -r tsconfig-paths/register src/seeds/run-seed.ts"
+    "seed": "ts-node -r tsconfig-paths/register src/seeds/run-seed.ts",
+    "seed:update-categories": "ts-node -r tsconfig-paths/register src/seeds/run-update-categories.ts",
+    "batch:generate": "ts-node -r tsconfig-paths/register src/batch-recipes/generate-batch-requests.ts",
+    "batch:submit": "ts-node -r tsconfig-paths/register src/batch-recipes/submit-batch.ts",
+    "batch:status": "ts-node -r tsconfig-paths/register src/batch-recipes/check-batch-status.ts",
+    "batch:process": "ts-node -r tsconfig-paths/register src/batch-recipes/process-batch-results.ts",
+    "batch:cancel": "ts-node -r tsconfig-paths/register src/batch-recipes/cancel-batch.ts",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "migration:run": "npm run typeorm migration:run -- -d data-source.ts",
+    "migration:revert": "npm run typeorm migration:revert -- -d data-source.ts",
+    "migration:generate": "npm run typeorm migration:generate -- -d data-source.ts",
+    "migration:create": "npm run typeorm migration:create"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",

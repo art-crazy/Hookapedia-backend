@@ -2,7 +2,16 @@
   "permissions": {
     "allow": [
       "Bash(dir \"C:\\Users\\redmi\\WebstormProjects\\Hookapedia-all\\Hookapedia\\src\\data\\categories\" /b)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(npx typeorm:*)",
+      "Bash(npm run seed)",
+      "Bash(psql:*)",
+      "Bash(npm run seed:update-categories:*)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run batch:generate:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
