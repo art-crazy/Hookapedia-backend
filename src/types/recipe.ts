@@ -36,8 +36,9 @@ export interface Recipe {
   rating: number;
   reviews: number;
   comments?: { user: string; date: string; text: string; likes: number; replies: number }[];
-  dishCategoriesList: { [key: string]: { id: string; title: string } };
-  dishCategoriesSubList: { [key: string]: { id: string; title: string } };
-  cuisineCategoriesList: { [key: string]: { id: string; title: string } };
-  dietCategoriesList: { [key: string]: { id: string; title: string } };
+  // Новые категории фильтрации
+  flavorCategory?: string; // frukty, yagody, tsitrusovye, deserty, pryanosti-travy, ekzotika
+  mintCategory?: string; // s-myatoy, bez-myaty
+  coolingCategory?: string; // bez-kholoda, legkiy-kholod, silnyy-kholod
+  strengthCategory?: string; // legkaya-krepost, srednyaya-krepost, krepkaya-krepost
 } 

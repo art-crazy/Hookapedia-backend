@@ -1,5 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable, CreateDateColumn, UpdateDateColumn, Index } from 'typeorm';
-import { Category } from './category.entity';
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Index } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 
 @Entity('recipes')
@@ -95,6 +94,26 @@ export class Recipe {
   @Index()
   categories: string[];
 
+  @ApiProperty({ description: 'Flavor category (frukty, yagody, tsitrusovye, deserty, pryanosti-travy, ekzotika)', required: false })
+  @Column({ nullable: true })
+  @Index()
+  flavorCategory: string;
+
+  @ApiProperty({ description: 'Mint category (s-myatoy, bez-myaty)', required: false })
+  @Column({ nullable: true })
+  @Index()
+  mintCategory: string;
+
+  @ApiProperty({ description: 'Cooling category (bez-kholoda, legkiy-kholod, silnyy-kholod)', required: false })
+  @Column({ nullable: true })
+  @Index()
+  coolingCategory: string;
+
+  @ApiProperty({ description: 'Strength category (legkaya-krepost, srednyaya-krepost, krepkaya-krepost)', required: false })
+  @Column({ nullable: true })
+  @Index()
+  strengthCategory: string;
+
   @ApiProperty({ description: 'Recipe rating (0-5)' })
   @Column('decimal', { precision: 3, scale: 1 })
   rating: number;
@@ -102,42 +121,6 @@ export class Recipe {
   @ApiProperty({ description: 'Number of reviews' })
   @Column()
   reviews: number;
-
-  @ApiProperty({ type: () => [Category], description: 'Dish categories' })
-  @ManyToMany(() => Category)
-  @JoinTable({
-    name: 'recipe_categories',
-    joinColumn: { name: 'recipe_id', referencedColumnName: 'id' },
-    inverseJoinColumn: { name: 'category_id', referencedColumnName: 'id' }
-  })
-  dishCategories: Category[];
-
-  @ApiProperty({ type: () => [Category], description: 'Subcategories' })
-  @ManyToMany(() => Category)
-  @JoinTable({
-    name: 'recipe_subcategories',
-    joinColumn: { name: 'recipe_id', referencedColumnName: 'id' },
-    inverseJoinColumn: { name: 'category_id', referencedColumnName: 'id' }
-  })
-  subcategories: Category[];
-
-  @ApiProperty({ type: () => [Category], description: 'Cuisine categories' })
-  @ManyToMany(() => Category)
-  @JoinTable({
-    name: 'recipe_cuisine_categories',
-    joinColumn: { name: 'recipe_id', referencedColumnName: 'id' },
-    inverseJoinColumn: { name: 'category_id', referencedColumnName: 'id' }
-  })
-  cuisineCategories: Category[];
-
-  @ApiProperty({ type: () => [Category], description: 'Diet categories' })
-  @ManyToMany(() => Category)
-  @JoinTable({
-    name: 'recipe_diet_categories',
-    joinColumn: { name: 'recipe_id', referencedColumnName: 'id' },
-    inverseJoinColumn: { name: 'category_id', referencedColumnName: 'id' }
-  })
-  dietCategories: Category[];
 
   @ApiProperty({ description: 'Creation timestamp' })
   @CreateDateColumn()

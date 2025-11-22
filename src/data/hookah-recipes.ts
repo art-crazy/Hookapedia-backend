@@ -36,10 +36,11 @@ export interface Recipe {
   rating: number;
   reviews: number;
   comments?: { user: string; date: string; text: string; likes: number; replies: number }[];
-  dishCategoriesList: { [key: string]: { id: string; title: string } };
-  dishCategoriesSubList: { [key: string]: { id: string; title: string } };
-  cuisineCategoriesList: { [key: string]: { id: string; title: string } };
-  dietCategoriesList: { [key: string]: { id: string; title: string } };
+  // Категории фильтрации
+  flavorCategory?: string; // frukty, yagody, tsitrusovye, deserty, pryanosti-travy, ekzotika
+  mintCategory?: string; // s-myatoy, bez-myaty
+  coolingCategory?: string; // bez-kholoda, legkiy-kholod, silnyy-kholod
+  strengthCategory?: string; // legkaya-krepost, srednyaya-krepost, krepkaya-krepost
 }
 
 // Рецепты кальянов
@@ -85,30 +86,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['освежающие', 'фруктовые', 'мятные', 'легкие', 'для начинающих'],
     rating: 4.7,
     reviews: 156,
-    dishCategoriesList: {
-      'light-mixes': {
-        id: 'light-mixes',
-        title: 'Легкие смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'citrus': {
-        id: 'citrus',
-        title: 'Цитрусовые'
-      },
-    },
-    cuisineCategoriesList: {
-      'arabic': {
-        id: 'arabic',
-        title: 'Арабская традиция'
-      },
-    },
-    dietCategoriesList: {
-      'beginner': {
-        id: 'beginner',
-        title: 'Для начинающих'
-      },
-    }
+    flavorCategory: 'tsitrusovye',
+    mintCategory: 's-myatoy',
+    coolingCategory: 'legkiy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
 
   2: {
@@ -147,30 +128,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['фруктовые', 'сладкие', 'экзотические', 'летние'],
     rating: 4.5,
     reviews: 89,
-    dishCategoriesList: {
-      'fruity-mixes': {
-        id: 'fruity-mixes',
-        title: 'Фруктовые смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'tropical': {
-        id: 'tropical',
-        title: 'Тропические'
-      },
-    },
-    cuisineCategoriesList: {
-      'caribbean': {
-        id: 'caribbean',
-        title: 'Карибская'
-      },
-    },
-    dietCategoriesList: {
-      'sweet': {
-        id: 'sweet',
-        title: 'Сладкие'
-      },
-    }
+    flavorCategory: 'ekzotika',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'legkaya-krepost',
   },
 
   3: {
@@ -204,30 +165,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['ягодные', 'насыщенные', 'кислые', 'освежающие'],
     rating: 4.6,
     reviews: 134,
-    dishCategoriesList: {
-      'berry-mixes': {
-        id: 'berry-mixes',
-        title: 'Ягодные смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'forest-berries': {
-        id: 'forest-berries',
-        title: 'Лесные ягоды'
-      },
-    },
-    cuisineCategoriesList: {
-      'european': {
-        id: 'european',
-        title: 'Европейская'
-      },
-    },
-    dietCategoriesList: {
-      'tart': {
-        id: 'tart',
-        title: 'Кислые'
-      },
-    }
+    flavorCategory: 'yagody',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'srednyaya-krepost',
   },
 
   4: {
@@ -265,30 +206,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['десертные', 'кофейные', 'вечерние', 'насыщенные', 'гурманские'],
     rating: 4.8,
     reviews: 201,
-    dishCategoriesList: {
-      'dessert-mixes': {
-        id: 'dessert-mixes',
-        title: 'Десертные смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'coffee': {
-        id: 'coffee',
-        title: 'Кофейные'
-      },
-    },
-    cuisineCategoriesList: {
-      'french': {
-        id: 'french',
-        title: 'Французская'
-      },
-    },
-    dietCategoriesList: {
-      'gourmet': {
-        id: 'gourmet',
-        title: 'Гурманские'
-      },
-    }
+    flavorCategory: 'deserty',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'srednyaya-krepost',
   },
 
   5: {
@@ -321,30 +242,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['классические', 'пряные', 'яблочные', 'традиционные'],
     rating: 4.4,
     reviews: 298,
-    dishCategoriesList: {
-      'classic-mixes': {
-        id: 'classic-mixes',
-        title: 'Классические смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'apple': {
-        id: 'apple',
-        title: 'Яблочные'
-      },
-    },
-    cuisineCategoriesList: {
-      'turkish': {
-        id: 'turkish',
-        title: 'Турецкая'
-      },
-    },
-    dietCategoriesList: {
-      'traditional': {
-        id: 'traditional',
-        title: 'Традиционные'
-      },
-    }
+    flavorCategory: 'pryanosti-travy',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'srednyaya-krepost',
   },
 
   6: {
@@ -378,30 +279,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['холодные', 'виноградные', 'мятные', 'летние', 'освежающие'],
     rating: 4.3,
     reviews: 167,
-    dishCategoriesList: {
-      'cool-mixes': {
-        id: 'cool-mixes',
-        title: 'Холодные смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'grape': {
-        id: 'grape',
-        title: 'Виноградные'
-      },
-    },
-    cuisineCategoriesList: {
-      'mediterranean': {
-        id: 'mediterranean',
-        title: 'Средиземноморская'
-      },
-    },
-    dietCategoriesList: {
-      'refreshing': {
-        id: 'refreshing',
-        title: 'Освежающие'
-      },
-    }
+    flavorCategory: 'frukty',
+    mintCategory: 's-myatoy',
+    coolingCategory: 'silnyy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
 
   7: {
@@ -439,30 +320,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['десертные', 'шоколадные', 'сладкие', 'премиум', 'вечерние'],
     rating: 4.9,
     reviews: 145,
-    dishCategoriesList: {
-      'premium-mixes': {
-        id: 'premium-mixes',
-        title: 'Премиум смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'chocolate': {
-        id: 'chocolate',
-        title: 'Шоколадные'
-      },
-    },
-    cuisineCategoriesList: {
-      'italian': {
-        id: 'italian',
-        title: 'Итальянская'
-      },
-    },
-    dietCategoriesList: {
-      'premium': {
-        id: 'premium',
-        title: 'Премиум'
-      },
-    }
+    flavorCategory: 'deserty',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'krepkaya-krepost',
   },
 
   8: {
@@ -495,30 +356,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['экспериментальные', 'травяные', 'арбузные', 'необычные', 'летние'],
     rating: 4.2,
     reviews: 78,
-    dishCategoriesList: {
-      'experimental-mixes': {
-        id: 'experimental-mixes',
-        title: 'Экспериментальные смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'herbs': {
-        id: 'herbs',
-        title: 'Травяные'
-      },
-    },
-    cuisineCategoriesList: {
-      'greek': {
-        id: 'greek',
-        title: 'Греческая'
-      },
-    },
-    dietCategoriesList: {
-      'unusual': {
-        id: 'unusual',
-        title: 'Необычные'
-      },
-    }
+    flavorCategory: 'pryanosti-travy',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'srednyaya-krepost',
   },
 
   9: {
@@ -551,30 +392,10 @@ export const recipes: Record<number, Recipe> = {
     categories: ['тропические', 'персиковые', 'экзотические', 'сладкие', 'фруктовые'],
     rating: 4.6,
     reviews: 112,
-    dishCategoriesList: {
-      'tropical-mixes': {
-        id: 'tropical-mixes',
-        title: 'Тропические смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'stone-fruits': {
-        id: 'stone-fruits',
-        title: 'Косточковые фрукты'
-      },
-    },
-    cuisineCategoriesList: {
-      'brazilian': {
-        id: 'brazilian',
-        title: 'Бразильская'
-      },
-    },
-    dietCategoriesList: {
-      'exotic': {
-        id: 'exotic',
-        title: 'Экзотические'
-      },
-    }
+    flavorCategory: 'ekzotika',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'legkaya-krepost',
   },
 
   10: {
@@ -617,31 +438,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['восточные', 'пряные', 'элитные', 'цветочные', 'для знатоков'],
     rating: 4.8,
     reviews: 67,
-    dishCategoriesList: {
-      'elite-mixes': {
-        id: 'elite-mixes',
-        title: 'Элитные смеси'
-      }
-    },
-    dishCategoriesSubList: {
-      'floral': {
-        id: 'floral',
-        title: 'Цветочные'
-      },
-    },
-    cuisineCategoriesList: {
-      'persian': {
-        id: 'persian',
-        title: 'Персидская'
-      },
-    },
-    dietCategoriesList: {
-      'connoisseur': {
-        id: 'connoisseur',
-        title: 'Для знатоков'
-      },
-    }
+    flavorCategory: 'pryanosti-travy',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'krepkaya-krepost',
   },
+
   364: {
     id: 364,
     name: 'lemon-mint-mix',
@@ -674,11 +476,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['освежающие', 'лимон', 'мята', 'летние миксы', 'простые рецепты'],
     rating: 4.7,
     reviews: 128,
-    dishCategoriesList: { 'refreshing': { id: 'refreshing', title: 'Освежающие' } },
-    dishCategoriesSubList: { 'citrus-mint': { id: 'citrus-mint', title: 'Цитрус-мята' } },
-    cuisineCategoriesList: { refreshing: { id: 'refreshing', title: 'Освежающие миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'tsitrusovye',
+    mintCategory: 's-myatoy',
+    coolingCategory: 'legkiy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
+
   365: {
     id: 365,
     name: 'watermelon-ice-mix',
@@ -711,11 +514,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['освежающие', 'арбуз', 'лёд', 'летние миксы', 'фруктовые'],
     rating: 4.6,
     reviews: 95,
-    dishCategoriesList: { 'refreshing': { id: 'refreshing', title: 'Освежающие' } },
-    dishCategoriesSubList: { 'fruit-ice': { id: 'fruit-ice', title: 'Фрукты-лёд' } },
-    cuisineCategoriesList: { refreshing: { id: 'refreshing', title: 'Освежающие миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'frukty',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'silnyy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
+
   366: {
     id: 366,
     name: 'grape-mint-mix',
@@ -748,11 +552,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['освежающие', 'виноград', 'мята', 'летние миксы', 'фруктовые'],
     rating: 4.8,
     reviews: 112,
-    dishCategoriesList: { 'refreshing': { id: 'refreshing', title: 'Освежающие' } },
-    dishCategoriesSubList: { 'fruit-mint': { id: 'fruit-mint', title: 'Фрукты-мята' } },
-    cuisineCategoriesList: { refreshing: { id: 'refreshing', title: 'Освежающие миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'frukty',
+    mintCategory: 's-myatoy',
+    coolingCategory: 'legkiy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
+
   367: {
     id: 367,
     name: 'orange-ice-mix',
@@ -785,11 +590,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['освежающие', 'апельсин', 'лёд', 'летние миксы', 'цитрусовые'],
     rating: 4.9,
     reviews: 156,
-    dishCategoriesList: { 'refreshing': { id: 'refreshing', title: 'Освежающие' } },
-    dishCategoriesSubList: { 'citrus-ice': { id: 'citrus-ice', title: 'Цитрус-лёд' } },
-    cuisineCategoriesList: { refreshing: { id: 'refreshing', title: 'Освежающие миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'tsitrusovye',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'silnyy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
+
   368: {
     id: 368,
     name: 'kiwi-mint-mix',
@@ -822,11 +628,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['экзотические', 'киви', 'мята', 'летние миксы', 'фруктовые'],
     rating: 4.7,
     reviews: 89,
-    dishCategoriesList: { 'exotic': { id: 'exotic', title: 'Экзотические' } },
-    dishCategoriesSubList: { 'fruit-mint': { id: 'fruit-mint', title: 'Фрукты-мята' } },
-    cuisineCategoriesList: { exotic: { id: 'exotic', title: 'Экзотические миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'ekzotika',
+    mintCategory: 's-myatoy',
+    coolingCategory: 'legkiy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
+
   369: {
     id: 369,
     name: 'passion-fruit-ice-mix',
@@ -859,11 +666,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['освежающие', 'маракуйя', 'лёд', 'летние миксы', 'тропические'],
     rating: 4.6,
     reviews: 76,
-    dishCategoriesList: { 'refreshing': { id: 'refreshing', title: 'Освежающие' } },
-    dishCategoriesSubList: { 'tropical-ice': { id: 'tropical-ice', title: 'Тропики-лёд' } },
-    cuisineCategoriesList: { refreshing: { id: 'refreshing', title: 'Освежающие миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'ekzotika',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'silnyy-kholod',
+    strengthCategory: 'legkaya-krepost',
   },
+
   370: {
     id: 370,
     name: 'double-apple-mint-classic',
@@ -896,11 +704,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['классика', 'яблоко', 'мята', 'проверенные миксы'],
     rating: 4.8,
     reviews: 142,
-    dishCategoriesList: { 'classic': { id: 'classic', title: 'Классические' } },
-    dishCategoriesSubList: { 'apple-mint': { id: 'apple-mint', title: 'Яблоко-мята' } },
-    cuisineCategoriesList: { classic: { id: 'classic', title: 'Классические миксы' } },
-    dietCategoriesList: { 'medium': { id: 'medium', title: 'Средние миксы' } }
+    flavorCategory: 'frukty',
+    mintCategory: 's-myatoy',
+    coolingCategory: 'legkiy-kholod',
+    strengthCategory: 'srednyaya-krepost',
   },
+
   371: {
     id: 371,
     name: 'cherry-cola-classic',
@@ -933,11 +742,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['классика', 'вишня', 'кола', 'популярные', 'сладкие'],
     rating: 4.7,
     reviews: 98,
-    dishCategoriesList: { 'classic': { id: 'classic', title: 'Классические' } },
-    dishCategoriesSubList: { 'sweet': { id: 'sweet', title: 'Сладкие' } },
-    cuisineCategoriesList: { classic: { id: 'classic', title: 'Классические миксы' } },
-    dietCategoriesList: { 'medium': { id: 'medium', title: 'Средние миксы' } }
+    flavorCategory: 'yagody',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'legkiy-kholod',
+    strengthCategory: 'srednyaya-krepost',
   },
+
   372: {
     id: 372,
     name: 'strawberry-banana-classic',
@@ -970,11 +780,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['классика', 'клубника', 'банан', 'фруктовые', 'популярные'],
     rating: 4.6,
     reviews: 87,
-    dishCategoriesList: { 'classic': { id: 'classic', title: 'Классические' } },
-    dishCategoriesSubList: { 'fruity': { id: 'fruity', title: 'Фруктовые' } },
-    cuisineCategoriesList: { classic: { id: 'classic', title: 'Классические миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'yagody',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'legkaya-krepost',
   },
+
   373: {
     id: 373,
     name: 'mango-peach-classic',
@@ -1007,11 +818,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['классика', 'манго', 'персик', 'тропические', 'летние'],
     rating: 4.8,
     reviews: 112,
-    dishCategoriesList: { 'classic': { id: 'classic', title: 'Классические' } },
-    dishCategoriesSubList: { 'tropical': { id: 'tropical', title: 'Тропические' } },
-    cuisineCategoriesList: { classic: { id: 'classic', title: 'Классические миксы' } },
-    dietCategoriesList: { 'light': { id: 'light', title: 'Лёгкие миксы' } }
+    flavorCategory: 'ekzotika',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'legkaya-krepost',
   },
+
   374: {
     id: 374,
     name: 'grape-mint-classic',
@@ -1044,11 +856,12 @@ export const recipes: Record<number, Recipe> = {
     categories: ['классика', 'виноград', 'мята', 'гармоничные', 'популярные'],
     rating: 4.7,
     reviews: 94,
-    dishCategoriesList: { 'classic': { id: 'classic', title: 'Классические' } },
-    dishCategoriesSubList: { 'fruit-mint': { id: 'fruit-mint', title: 'Фрукты-мята' } },
-    cuisineCategoriesList: { classic: { id: 'classic', title: 'Классические миксы' } },
-    dietCategoriesList: { 'medium': { id: 'medium', title: 'Средние миксы' } }
+    flavorCategory: 'frukty',
+    mintCategory: 's-myatoy',
+    coolingCategory: 'legkiy-kholod',
+    strengthCategory: 'srednyaya-krepost',
   },
+
   409: {
     id: 409,
     name: 'pineapple-coconut-classic',
@@ -1081,9 +894,9 @@ export const recipes: Record<number, Recipe> = {
     categories: ['классика', 'ананас', 'кокос', 'экзотика', 'тропики'],
     rating: 4.8,
     reviews: 88,
-    dishCategoriesList: { 'classic': { id: 'classic', title: 'Классические' } },
-    dishCategoriesSubList: { 'exotic': { id: 'exotic', title: 'Экзотические' } },
-    cuisineCategoriesList: { classic: { id: 'classic', title: 'Классические миксы' } },
-    dietCategoriesList: { 'medium': { id: 'medium', title: 'Средние миксы' } }
+    flavorCategory: 'ekzotika',
+    mintCategory: 'bez-myaty',
+    coolingCategory: 'bez-kholoda',
+    strengthCategory: 'srednyaya-krepost',
   },
 };

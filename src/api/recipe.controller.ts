@@ -19,25 +19,25 @@ export class RecipeController {
   @ApiQuery({ name: 'page', required: false, type: Number, description: 'Номер страницы' })
   @ApiQuery({ name: 'limit', required: false, type: Number, description: 'Количество элементов на странице' })
   @ApiQuery({ name: 'search', required: false, type: String, description: 'Поиск по названию и описанию рецепта' })
-  @ApiQuery({ name: 'dish_categories', required: false, type: String, description: 'ID категорий блюд через запятую' })
-  @ApiQuery({ name: 'subcategories', required: false, type: String, description: 'ID подкатегорий через запятую' })
-  @ApiQuery({ name: 'cuisine_categories', required: false, type: String, description: 'ID категорий кухонь через запятую' })
-  @ApiQuery({ name: 'diet_categories', required: false, type: String, description: 'ID категорий диет через запятую' })
+  @ApiQuery({ name: 'flavor_category', required: false, type: String, description: 'Категория вкуса (frukty, yagody, tsitrusovye, deserty, pryanosti-travy, ekzotika)' })
+  @ApiQuery({ name: 'mint_category', required: false, type: String, description: 'Категория мяты (s-myatoy, bez-myaty)' })
+  @ApiQuery({ name: 'cooling_category', required: false, type: String, description: 'Категория холодка (bez-kholoda, legkiy-kholod, silnyy-kholod)' })
+  @ApiQuery({ name: 'strength_category', required: false, type: String, description: 'Категория крепости (legkaya-krepost, srednyaya-krepost, krepkaya-krepost)' })
   async findAll(
     @Query('page') page?: string,
     @Query('limit') limit?: string,
     @Query('search') search?: string,
-    @Query('dish_categories') dishCategories?: string,
-    @Query('subcategories') subcategories?: string,
-    @Query('cuisine_categories') cuisineCategories?: string,
-    @Query('diet_categories') dietCategories?: string,
+    @Query('flavor_category') flavorCategory?: string,
+    @Query('mint_category') mintCategory?: string,
+    @Query('cooling_category') coolingCategory?: string,
+    @Query('strength_category') strengthCategory?: string,
   ) {
     const filters = {
       search,
-      dishCategories: dishCategories?.split(','),
-      subcategories: subcategories?.split(','),
-      cuisineCategories: cuisineCategories?.split(','),
-      dietCategories: dietCategories?.split(','),
+      flavorCategory,
+      mintCategory,
+      coolingCategory,
+      strengthCategory,
     };
 
     const pageNum = page ? parseInt(page) : 1;

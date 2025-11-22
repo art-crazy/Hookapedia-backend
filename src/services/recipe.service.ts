@@ -5,10 +5,10 @@ import { Recipe } from '@/entities/recipe.entity';
 
 interface RecipeFilters {
   search?: string;
-  dishCategories?: string[];
-  subcategories?: string[];
-  cuisineCategories?: string[];
-  dietCategories?: string[];
+  flavorCategory?: string;
+  mintCategory?: string;
+  coolingCategory?: string;
+  strengthCategory?: string;
 }
 
 @Injectable()
@@ -23,11 +23,7 @@ export class RecipeService {
     limit: number = 12,
     filters?: RecipeFilters,
   ): Promise<{ recipes: Recipe[]; total: number; totalPages: number }> {
-    const queryBuilder = this.recipeRepository.createQueryBuilder('recipe')
-      .leftJoinAndSelect('recipe.dishCategories', 'dishCategories')
-      .leftJoinAndSelect('recipe.subcategories', 'subcategories')
-      .leftJoinAndSelect('recipe.cuisineCategories', 'cuisineCategories')
-      .leftJoinAndSelect('recipe.dietCategories', 'dietCategories');
+    const queryBuilder = this.recipeRepository.createQueryBuilder('recipe');
 
     if (filters) {
       if (filters.search) {
@@ -37,27 +33,27 @@ export class RecipeService {
         );
       }
 
-      if (filters.dishCategories?.length) {
-        queryBuilder.andWhere('dishCategories.slug IN (:...dishCategories)', {
-          dishCategories: filters.dishCategories,
+      if (filters.flavorCategory) {
+        queryBuilder.andWhere('recipe.flavorCategory = :flavorCategory', {
+          flavorCategory: filters.flavorCategory,
         });
       }
 
-      if (filters.subcategories?.length) {
-        queryBuilder.andWhere('subcategories.slug IN (:...subcategories)', {
-          subcategories: filters.subcategories,
+      if (filters.mintCategory) {
+        queryBuilder.andWhere('recipe.mintCategory = :mintCategory', {
+          mintCategory: filters.mintCategory,
         });
       }
 
-      if (filters.cuisineCategories?.length) {
-        queryBuilder.andWhere('cuisineCategories.slug IN (:...cuisineCategories)', {
-          cuisineCategories: filters.cuisineCategories,
+      if (filters.coolingCategory) {
+        queryBuilder.andWhere('recipe.coolingCategory = :coolingCategory', {
+          coolingCategory: filters.coolingCategory,
         });
       }
 
-      if (filters.dietCategories?.length) {
-        queryBuilder.andWhere('dietCategories.slug IN (:...dietCategories)', {
-          dietCategories: filters.dietCategories,
+      if (filters.strengthCategory) {
+        queryBuilder.andWhere('recipe.strengthCategory = :strengthCategory', {
+          strengthCategory: filters.strengthCategory,
         });
       }
     }
@@ -75,7 +71,6 @@ export class RecipeService {
   async findOne(id: number): Promise<Recipe> {
     const recipe = await this.recipeRepository.findOne({
       where: { id },
-      relations: ['dishCategories', 'subcategories', 'cuisineCategories', 'dietCategories'],
     });
 
     if (!recipe) {
