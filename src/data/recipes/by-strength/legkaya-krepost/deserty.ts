@@ -4,9 +4,9 @@ import { Recipe, RecipeCollection, Unit } from '../../types';
 export const recipes: RecipeCollection = {
   668: {
     id: 668,
-    name: 'deserty-ваниль-s-myatoy-bez-kholoda',
-    title: 'Ваниль-карамель',
-    description: 'Ваниль-карамель  и мятой',
+    name: 'deserty-vanil-s-myatoy-bez-kholoda-legkaya-krepost',
+    title: 'Vanilla-Caramel with Mint (Light)',
+    description: 'Ваниль-карамель и мятой',
     cookTime: '16 минут',
     difficulty: '3/5',
     nutrition: {
@@ -34,8 +34,8 @@ export const recipes: RecipeCollection = {
     ],
     imageMain: '/mock.webp',
     categories: ['deserty', 'legkaya-krepost'],
-    rating: 4.6,
-    reviews: 132,
+    rating: 4.7,
+    reviews: 195,
     flavorCategory: 'deserty',
     mintCategory: 's-myatoy',
     coolingCategory: 'bez-kholoda',
@@ -44,8 +44,8 @@ export const recipes: RecipeCollection = {
 
   669: {
     id: 669,
-    name: 'deserty-шоколад-s-myatoy-legkiy-kholod',
-    title: 'Шоколад-крем с лёгким холодком',
+    name: 'deserty-shokolad-s-myatoy-legkiy-kholod-legkaya-krepost',
+    title: 'Chocolate-Cream Light Ice with Mint (Light)',
     description: 'Шоколад-крем с лёгким холодком и мятой',
     cookTime: '17 минут',
     difficulty: '1/5',
@@ -76,8 +76,8 @@ export const recipes: RecipeCollection = {
     ],
     imageMain: '/mock.webp',
     categories: ['deserty', 'legkaya-krepost'],
-    rating: 4.5,
-    reviews: 122,
+    rating: 4.1,
+    reviews: 161,
     flavorCategory: 'deserty',
     mintCategory: 's-myatoy',
     coolingCategory: 'legkiy-kholod',
@@ -86,8 +86,8 @@ export const recipes: RecipeCollection = {
 
   670: {
     id: 670,
-    name: 'deserty-печенье-s-myatoy-silnyy-kholod',
-    title: 'Печенье-молоко с сильным ледяным эффектом',
+    name: 'deserty-pechenie-s-myatoy-silnyy-kholod-legkaya-krepost',
+    title: 'Cookie-Milk Strong Ice with Mint (Light)',
     description: 'Печенье-молоко с сильным ледяным эффектом и мятой',
     cookTime: '18 минут',
     difficulty: '2/5',
@@ -119,7 +119,7 @@ export const recipes: RecipeCollection = {
     imageMain: '/mock.webp',
     categories: ['deserty', 'legkaya-krepost'],
     rating: 4.7,
-    reviews: 125,
+    reviews: 100,
     flavorCategory: 'deserty',
     mintCategory: 's-myatoy',
     coolingCategory: 'silnyy-kholod',
@@ -128,8 +128,8 @@ export const recipes: RecipeCollection = {
 
   671: {
     id: 671,
-    name: 'deserty-ваниль-bez-myaty-bez-kholoda',
-    title: 'Ваниль-карамель',
+    name: 'deserty-vanil-bez-myaty-bez-kholoda-legkaya-krepost',
+    title: 'Vanilla-Caramel (Light)',
     description: 'Ваниль-карамель',
     cookTime: '19 минут',
     difficulty: '3/5',
@@ -157,7 +157,7 @@ export const recipes: RecipeCollection = {
     imageMain: '/mock.webp',
     categories: ['deserty', 'legkaya-krepost'],
     rating: 4.5,
-    reviews: 131,
+    reviews: 95,
     flavorCategory: 'deserty',
     mintCategory: 'bez-myaty',
     coolingCategory: 'bez-kholoda',
@@ -166,8 +166,8 @@ export const recipes: RecipeCollection = {
 
   672: {
     id: 672,
-    name: 'deserty-шоколад-bez-myaty-legkiy-kholod',
-    title: 'Шоколад-крем с лёгким холодком',
+    name: 'deserty-shokolad-bez-myaty-legkiy-kholod-legkaya-krepost',
+    title: 'Chocolate-Cream Light Ice (Light)',
     description: 'Шоколад-крем с лёгким холодком',
     cookTime: '12 минут',
     difficulty: '1/5',
@@ -197,7 +197,7 @@ export const recipes: RecipeCollection = {
     imageMain: '/mock.webp',
     categories: ['deserty', 'legkaya-krepost'],
     rating: 4.7,
-    reviews: 114,
+    reviews: 101,
     flavorCategory: 'deserty',
     mintCategory: 'bez-myaty',
     coolingCategory: 'legkiy-kholod',
@@ -206,8 +206,8 @@ export const recipes: RecipeCollection = {
 
   673: {
     id: 673,
-    name: 'deserty-печенье-bez-myaty-silnyy-kholod',
-    title: 'Печенье-молоко с сильным ледяным эффектом',
+    name: 'deserty-pechenie-bez-myaty-silnyy-kholod-legkaya-krepost',
+    title: 'Cookie-Milk Strong Ice (Light)',
     description: 'Печенье-молоко с сильным ледяным эффектом',
     cookTime: '13 минут',
     difficulty: '2/5',
@@ -236,8 +236,8 @@ export const recipes: RecipeCollection = {
     ],
     imageMain: '/mock.webp',
     categories: ['deserty', 'legkaya-krepost'],
-    rating: 4.2,
-    reviews: 148,
+    rating: 4.6,
+    reviews: 163,
     flavorCategory: 'deserty',
     mintCategory: 'bez-myaty',
     coolingCategory: 'silnyy-kholod',
