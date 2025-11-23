@@ -5,8 +5,8 @@ export const recipes: RecipeCollection = {
   686: {
     id: 686,
     name: 'frukty-yabloko-s-myatoy-bez-kholoda-srednyaya-krepost',
-    title: 'Яблоко-груша и мятой (средняя)',
-    description: 'Яблоко-груша и мятой',
+    title: 'Яблоко-груша с мятой (средняя)',
+    description: 'Яблоко-груша с мятой',
     cookTime: '18 минут',
     difficulty: '3/5',
     nutrition: {
