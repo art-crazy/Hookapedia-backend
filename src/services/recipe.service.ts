@@ -59,7 +59,7 @@ export class RecipeService {
     }
 
     const [recipes, total] = await queryBuilder
-      .orderBy('recipe.id', 'DESC')
+      .orderBy('recipe.createdAt', 'DESC')
       .skip((page - 1) * limit)
       .take(limit)
       .getManyAndCount();

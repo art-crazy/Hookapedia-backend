@@ -41,7 +41,7 @@ export class RecipeController {
     };
 
     const pageNum = page ? parseInt(page) : 1;
-    const limitNum = limit ? parseInt(limit) : 12;
+    const limitNum = limit ? parseInt(limit) : 1000;
 
     // Пытаемся найти рецепты по фильтрам
     const result = await this.recipeService.findAll(
