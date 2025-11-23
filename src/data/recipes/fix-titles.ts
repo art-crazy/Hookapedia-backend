@@ -83,17 +83,23 @@ const strengthJar: Record<string, string> = {
 };
 
 function generateUniqueTitle(template: any, strength: string, mint: string, cooling: string): string {
-  const parts: string[] = [template.titleEn];
+  const parts: string[] = [template.titleRu];
 
-  if (coolingTextEn[cooling]) {
-    parts.push(coolingTextEn[cooling]);
+  if (coolingTextRu[cooling]) {
+    parts.push(coolingTextRu[cooling]);
   }
 
-  if (mintTextEn[mint]) {
-    parts.push(mintTextEn[mint]);
+  if (mintTextRu[mint]) {
+    parts.push(mintTextRu[mint]);
   }
 
-  parts.push(`(${strengthTextEn[strength]})`);
+  const strengthTextRu: Record<string, string> = {
+    'legkaya-krepost': 'лёгкая',
+    'srednyaya-krepost': 'средняя',
+    'krepkaya-krepost': 'крепкая',
+  };
+
+  parts.push(`(${strengthTextRu[strength]})`);
 
   return parts.join(' ');
 }
