@@ -4,6 +4,7 @@
  */
 
 import { loadAllRecipes } from './index';
+import { Recipe } from './types';
 
 interface FilterCombination {
   strength?: string;
@@ -11,14 +12,13 @@ interface FilterCombination {
   mint?: string;
   cooling?: string;
   count: number;
-  recipes: number[];
+  recipes: string[];
 }
 
 function analyzeCoverage() {
   console.log('=== Analyzing Recipe Coverage ===\n');
 
-  const allRecipes = loadAllRecipes();
-  const recipeArray = Object.values(allRecipes);
+  const recipeArray: Recipe[] = loadAllRecipes();
 
   console.log(`Total recipes loaded: ${recipeArray.length}\n`);
 

@@ -1,20 +1,22 @@
 import { DataSource } from 'typeorm';
 import { Recipe } from '@/entities/recipe.entity';
 import { loadAllRecipes } from '@/data/recipes';
+import { Recipe as RecipeData } from '@/data/recipes/types';
 
 export async function updateRecipes(dataSource: DataSource) {
   const recipeRepository = dataSource.getRepository(Recipe);
 
   console.log('Starting to update recipes with new titles...');
 
-  const allRecipes = loadAllRecipes();
-  const recipeArray = Object.values(allRecipes);
+  const recipeArray: RecipeData[] = loadAllRecipes();
 
   console.log(`Loaded ${recipeArray.length} recipes from files`);
 
   let updated = 0;
 
   for (const recipeData of recipeArray) {
+    const recipeName = recipeData.name ?? recipeData.title;
+
     try {
       console.log(`Updating recipe ID ${recipeData.id}: ${recipeData.title}`);
 
@@ -30,7 +32,7 @@ export async function updateRecipes(dataSource: DataSource) {
       `, [
         recipeData.title,
         recipeData.description,
-        recipeData.name,
+        recipeName,
         JSON.stringify(recipeData.ingredients),
         recipeData.id
       ]);

@@ -87,8 +87,8 @@ export class RecipeController {
     status: 404,
     description: 'Рецепт не найден'
   })
-  @ApiParam({ name: 'id', required: true, type: Number, description: 'ID рецепта' })
+  @ApiParam({ name: 'id', required: true, type: String, description: 'ID рецепта' })
   async findOne(@Param('id') id: string) {
-    return await this.recipeService.findOne(parseInt(id));
+    return await this.recipeService.findOne(id);
   }
 }

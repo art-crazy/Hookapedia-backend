@@ -69,7 +69,7 @@ export class RecipeService {
     return { recipes, total, totalPages };
   }
 
-  async findOne(id: number): Promise<Recipe> {
+  async findOne(id: string): Promise<Recipe> {
     const recipe = await this.recipeRepository.findOne({
       where: { id },
     });

@@ -1,3 +1,4 @@
+import { Recipe } from './types';
 import { legkayaKrepostDeserty } from './by-strength/legkaya-krepost/deserty';
 import { legkayaKrepostEkzotika } from './by-strength/legkaya-krepost/ekzotika';
 import { legkayaKrepostFrukty } from './by-strength/legkaya-krepost/frukty';
@@ -11,7 +12,7 @@ import { krepkayaKrepostTsitrusovye } from './by-strength/krepkaya-krepost/tsitr
 import { krepkayaKrepostEkzotika } from './by-strength/krepkaya-krepost/ekzotika';
 import { krepkayaKrepostYagody } from './by-strength/krepkaya-krepost/yagody';
 
-export const allRecipes = [
+export const allRecipes: Recipe[] = [
   ...legkayaKrepostDeserty,
   ...legkayaKrepostEkzotika,
   ...legkayaKrepostFrukty,
@@ -25,3 +26,8 @@ export const allRecipes = [
   ...krepkayaKrepostEkzotika,
   ...krepkayaKrepostYagody,
 ];
+
+// Helper for scripts that want a function-style API
+export const loadAllRecipes = (): Recipe[] => allRecipes;
+
+export const recipes = allRecipes;

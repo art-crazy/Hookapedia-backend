@@ -21,7 +21,7 @@ async function checkRecipe() {
     await AppDataSource.initialize();
     const recipeRepository = AppDataSource.getRepository(Recipe);
 
-    const recipe686 = await recipeRepository.findOne({ where: { id: 686 } });
+    const recipe686 = await recipeRepository.findOne({ where: { id: '686' } });
     console.log('Recipe 686:', recipe686 ? `Found - ${recipe686.title}` : 'NOT FOUND');
 
     const allRecipes = await recipeRepository.find({

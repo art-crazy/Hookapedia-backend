@@ -1,5 +1,6 @@
 export interface Recipe {
   id: string;
+  name?: string;
   title: string;
   description: string;
   imageUrl: string;
@@ -9,6 +10,14 @@ export interface Recipe {
   author: string;
   createdAt: string;
   likes: number;
+  // Optional metadata used by analyzers/filters
+  flavorCategory?: string;
+  mintCategory?: string;
+  coolingCategory?: string;
+  strengthCategory?: string;
+  imageMain?: string;
+  rating?: number;
+  reviews?: number;
 }
 
 export interface Ingredient {

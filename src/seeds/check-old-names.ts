@@ -28,7 +28,9 @@ async function checkOldNames() {
 
     console.log(`Total recipes: ${allRecipes.length}`);
 
-    const recipesWithDigits = allRecipes.filter(r => r.id >= 500 && /\d{3,}/.test(r.name));
+    const recipesWithDigits = allRecipes.filter(
+      (r) => Number(r.id) >= 500 && r.name && /\d{3,}/.test(r.name)
+    );
 
     console.log(`\nRecipes with digit IDs in name (500+):`);
     recipesWithDigits.slice(0, 10).forEach(r => {

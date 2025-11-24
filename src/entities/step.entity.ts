@@ -15,6 +15,6 @@ export class Step {
   @Column({ nullable: true })
   image: string;
 
-  @ManyToOne(() => Recipe, (recipe) => recipe.steps)
+  @ManyToOne(() => Recipe)
   recipe: Recipe;
-} 
+}
