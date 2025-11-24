@@ -1,46 +1,27 @@
-import { RecipeCollection } from './types';
-import * as fs from 'fs';
-import * as path from 'path';
+import { legkayaKrepostDeserty } from './by-strength/legkaya-krepost/deserty';
+import { legkayaKrepostEkzotika } from './by-strength/legkaya-krepost/ekzotika';
+import { legkayaKrepostFrukty } from './by-strength/legkaya-krepost/frukty';
+import { srednyayaKrepostDeserty } from './by-strength/srednyaya-krepost/deserty';
+import { srednyayaKrepostEkzotika } from './by-strength/srednyaya-krepost/ekzotika';
+import { srednyayaKrepostFrukty } from './by-strength/srednyaya-krepost/frukty';
+import { srednyayaKrepostPryanostiTravy } from './by-strength/srednyaya-krepost/pryanosti-travy';
+import { srednyayaKrepostTsitrusovye } from './by-strength/srednyaya-krepost/tsitrusovye';
+import { srednyayaKrepostYagody } from './by-strength/srednyaya-krepost/yagody';
+import { krepkayaKrepostTsitrusovye } from './by-strength/krepkaya-krepost/tsitrusovye';
+import { krepkayaKrepostEkzotika } from './by-strength/krepkaya-krepost/ekzotika';
+import { krepkayaKrepostYagody } from './by-strength/krepkaya-krepost/yagody';
 
-/**
- * Dynamically loads all recipe files from the by-strength directory structure
- * and merges them into a single collection
- */
-export function loadAllRecipes(): RecipeCollection {
-  const allRecipes: RecipeCollection = {};
-  const strengthDir = path.join(__dirname, 'by-strength');
-
-  // Get all strength categories (legkaya-krepost, srednyaya-krepost, krepkaya-krepost)
-  const strengthCategories = fs.readdirSync(strengthDir, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
-
-  // Load recipes from each strength category
-  for (const strengthCategory of strengthCategories) {
-    const categoryPath = path.join(strengthDir, strengthCategory);
-    const flavorFiles = fs.readdirSync(categoryPath)
-      .filter(file => file.endsWith('.ts') && file !== 'index.ts');
-
-    // Load each flavor category file
-    for (const flavorFile of flavorFiles) {
-      const filePath = path.join(categoryPath, flavorFile);
-      try {
-        const { recipes } = require(filePath) as { recipes: RecipeCollection };
-
-        // Merge recipes into the main collection
-        Object.assign(allRecipes, recipes);
-
-        console.log(`Loaded ${Object.keys(recipes).length} recipes from ${strengthCategory}/${flavorFile}`);
-      } catch (error) {
-        console.error(`Error loading recipes from ${filePath}:`, error);
-      }
-    }
-  }
-
-  console.log(`Total recipes loaded: ${Object.keys(allRecipes).length}`);
-  return allRecipes;
-}
-
-// Export for direct import
-export const recipes = loadAllRecipes();
-export { RecipeCollection, Recipe, Unit } from './types';
+export const allRecipes = [
+  ...legkayaKrepostDeserty,
+  ...legkayaKrepostEkzotika,
+  ...legkayaKrepostFrukty,
+  ...srednyayaKrepostDeserty,
+  ...srednyayaKrepostEkzotika,
+  ...srednyayaKrepostFrukty,
+  ...srednyayaKrepostPryanostiTravy,
+  ...srednyayaKrepostTsitrusovye,
+  ...srednyayaKrepostYagody,
+  ...krepkayaKrepostTsitrusovye,
+  ...krepkayaKrepostEkzotika,
+  ...krepkayaKrepostYagody,
+];
