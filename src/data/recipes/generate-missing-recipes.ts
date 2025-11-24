@@ -32,7 +32,7 @@ let currentId = 500;
 const recipeTemplates = {
   frukty: [
     {
-      name: (id: number) => `apple-peach-mix-${id}`,
+      name: (id: number) => ` apple-peach-mix-${id}`,
       title: 'Яблоко-персик',
       description: 'Гармоничное сочетание сочного яблока и нежного персика. Классический фруктовый микс.',
       ingredients: ['Табак яблоко', 'Табак персик'],
