@@ -6,6 +6,10 @@ npm-debug.log*
 dist
 build
 
+# Data and seeds (dev only)
+src/data
+src/seeds
+
 # Environment files
 .env
 .env.local
