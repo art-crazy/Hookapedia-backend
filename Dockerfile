@@ -1,5 +1,5 @@
 # Multi-stage build for optimal image size
-FROM node:20-alpine AS dependencies
+FROM --platform=$BUILDPLATFORM node:20-alpine AS dependencies
 
 # Set working directory
 WORKDIR /app
@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm ci
 
 # Build stage
-FROM node:20-alpine AS build
+FROM --platform=$BUILDPLATFORM node:20-alpine AS build
 
 WORKDIR /app
 
@@ -28,7 +28,7 @@ RUN npm run build
 RUN npm ci --only=production && npm cache clean --force
 
 # Production stage
-FROM node:20-alpine AS production
+FROM --platform=$BUILDPLATFORM node:20-alpine AS production
 
 # Install dumb-init for proper signal handling
 RUN apk add --no-cache dumb-init
