@@ -70,7 +70,7 @@
         "Мята добавляет освежающий оттенок десерту",
         "Лучше курить вечером на полный желудок"
       ],
-      "imageMain": "/mock.webp",
+      "imageMain": "/recipe-images/vanilla_caramel_mint.png",
       "tags": [
         "десерт",
         "ваниль",
@@ -165,7 +165,7 @@
         "Тщательно перемешайте табак перед забивкой",
         "Лучше курить вечером на полный желудок"
       ],
-      "imageMain": "/mock.webp",
+      "imageMain": "/recipe-images/deserty_shokolad_s_myatoy_legkiy_kholod_krepkaya_krepost.png",
       "tags": [
         "десерт",
         "шоколад",
@@ -260,7 +260,7 @@
         "Обязательно добавьте лёд в колбу",
         "Сильный холод может быть некомфортным для некоторых"
       ],
-      "imageMain": "/mock.webp",
+      "imageMain": "/recipe-images/deserty_pechenie_s_myatoy_silnyy_kholod_krepkaya_krepost.png",
       "tags": [
         "десерт",
         "печенье",
@@ -341,7 +341,7 @@
         "Тщательно перемешайте табак перед забивкой",
         "Не утрамбовывайте табак слишком плотно"
       ],
-      "imageMain": "/mock.webp",
+      "imageMain": "/recipe-images/deserty_vanil_bez_myaty_bez_kholoda_krepkaya_krepost.png",
       "tags": [
         "десерт",
         "ваниль",
