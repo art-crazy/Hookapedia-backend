@@ -5,14 +5,14 @@ import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CollectionDto, CollectionResponseDto } from './dto/collection.dto';
 
 @ApiTags('Коллекции')
-@Controller('api/collections')
+@Controller('collections')
 export class CollectionController {
-  constructor(private readonly collectionService: CollectionService) {}
+  constructor(private readonly collectionService: CollectionService) { }
 
   @Get()
   @ApiOperation({ summary: 'Получить все коллекции' })
-  @ApiResponse({ 
-    status: 200, 
+  @ApiResponse({
+    status: 200,
     description: 'Возвращает список всех активных коллекций',
     type: CollectionResponseDto
   })
@@ -22,8 +22,8 @@ export class CollectionController {
 
   @Get(':id')
   @ApiOperation({ summary: 'Получить коллекцию по ID' })
-  @ApiResponse({ 
-    status: 200, 
+  @ApiResponse({
+    status: 200,
     description: 'Возвращает коллекцию по указанному ID',
     type: CollectionDto
   })
