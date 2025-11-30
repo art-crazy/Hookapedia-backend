@@ -5,7 +5,7 @@ import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CollectionDto, CollectionResponseDto } from './dto/collection.dto';
 
 @ApiTags('Коллекции')
-@Controller('collections')
+@Controller('api/collections')
 export class CollectionController {
   constructor(private readonly collectionService: CollectionService) { }
 
