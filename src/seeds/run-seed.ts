@@ -25,7 +25,7 @@ async function runSeed() {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
     entities: [Recipe, Category],
-    synchronize: true,
+    synchronize: false,
     migrations: ['src/migrations/*.ts'],
     migrationsRun: false,
     ssl: {

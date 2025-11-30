@@ -13,22 +13,24 @@ export class UpdateToHookahFormat1733000000000 implements MigrationInterface {
     await queryRunner.query(`ALTER TABLE "recipes" DROP COLUMN IF EXISTS "createdAt"`);
 
     // Add new hookah-specific columns
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "preparationTime" character varying NOT NULL DEFAULT '10-15 минут'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "smokingDuration" character varying NOT NULL DEFAULT '45-60 минут'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "recipeType" character varying NOT NULL DEFAULT 'Фруктовый'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "persons" integer NOT NULL DEFAULT '1'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "bowlType" character varying NOT NULL DEFAULT 'Phunnel'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "packingMethod" character varying NOT NULL DEFAULT 'Воздушная'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "charcoal" jsonb NOT NULL DEFAULT '{"type":"Кокосовый","pieces":3,"size":"25мм куб"}'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "smokeLevel" character varying NOT NULL DEFAULT 'Средний'`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "tags" text NOT NULL DEFAULT ''`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "tips" text`);
-    await queryRunner.query(`ALTER TABLE "recipes" ADD "likes" integer NOT NULL DEFAULT '0'`);
+    // Add new hookah-specific columns
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "preparationTime" character varying NOT NULL DEFAULT '10-15 минут'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "smokingDuration" character varying NOT NULL DEFAULT '45-60 минут'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "recipeType" character varying NOT NULL DEFAULT 'Фруктовый'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "persons" integer NOT NULL DEFAULT '1'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "bowlType" character varying NOT NULL DEFAULT 'Phunnel'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "packingMethod" character varying NOT NULL DEFAULT 'Воздушная'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "charcoal" jsonb NOT NULL DEFAULT '{"type":"Кокосовый","pieces":3,"size":"25мм куб"}'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "smokeLevel" character varying NOT NULL DEFAULT 'Средний'`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "tags" text NOT NULL DEFAULT ''`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "tips" text`);
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "likes" integer NOT NULL DEFAULT '0'`);
 
     // Create index on tags for search performance
-    await queryRunner.query(`CREATE INDEX "IDX_RECIPE_TAGS" ON "recipes" ("tags")`);
+    await queryRunner.query(`CREATE INDEX IF NOT EXISTS "IDX_RECIPE_TAGS" ON "recipes" ("tags")`);
 
     // Update difficulty column to use new format
+    await queryRunner.query(`ALTER TABLE "recipes" ADD COLUMN IF NOT EXISTS "difficulty" character varying NOT NULL DEFAULT 'Средне'`);
     await queryRunner.query(`
       UPDATE "recipes"
       SET "difficulty" = CASE
