@@ -16,7 +16,7 @@ export class RecipeService {
   constructor(
     @InjectRepository(Recipe)
     private recipeRepository: Repository<Recipe>,
-  ) {}
+  ) { }
 
   async findAll(
     page: number = 1,
@@ -59,7 +59,7 @@ export class RecipeService {
     }
 
     const [recipes, total] = await queryBuilder
-      .orderBy('recipe.createdAt', 'DESC')
+      .orderBy('recipe.updatedAt', 'DESC')
       .skip((page - 1) * limit)
       .take(limit)
       .getManyAndCount();
