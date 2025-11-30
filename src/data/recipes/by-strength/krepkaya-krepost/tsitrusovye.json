@@ -1,0 +1,541 @@
+{
+  "recipes": [
+    {
+      "id": 734,
+      "name": "tsitrusovye-apelsin-s-myatoy-bez-kholoda-krepkaya-krepost",
+      "title": "Апельсин-мандарин и мятой (крепкая)",
+      "description": "Яркий цитрусовый дуэт апельсина и мандарина с освежающей мятой. Сочный кисло-сладкий вкус с мятным акцентом.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "60-75 минут",
+      "difficulty": "Средне",
+      "recipeType": "Цитрусовый",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Апельсин",
+          "brand": "Darkside",
+          "percentage": 50,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Мандарин",
+          "brand": "Tangiers",
+          "percentage": 33,
+          "tobaccoType": "Dark Blend",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Must Have",
+          "percentage": 17,
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и тщательно промойте её."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте табаки: 50% Orange, 33% Tangerine, 17% Mint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Плотно распределите смесь в чаше, оставляя 2-3мм до края."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 3 кубика кокосового угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на сильном жаре для крепкого эффекта."
+        }
+      ],
+      "tips": [
+        "Не рекомендуется для новичков из-за высокой крепости",
+        "Мята добавляет свежесть цитрусовому миксу",
+        "Лучше курить вечером на полный желудок"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрусы",
+        "апельсин",
+        "мандарин",
+        "мята",
+        "крепкая",
+        "освежающий",
+        "вечерний"
+      ],
+      "rating": 4.2,
+      "reviews": 199,
+      "likes": 119,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 735,
+      "name": "tsitrusovye-limon-s-myatoy-legkiy-kholod-krepkaya-krepost",
+      "title": "Лимон-лайм с лёгким холодком и мятой (крепкая)",
+      "description": "Кислый микс лимона и лайма с мятой и легким холодком. Яркий цитрусовый вкус с освежающим финишем.",
+      "preparationTime": "12-15 минут",
+      "smokingDuration": "60-70 минут",
+      "difficulty": "Легко",
+      "recipeType": "Цитрусовый",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Лимон",
+          "brand": "Burn",
+          "percentage": 45,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Лайм",
+          "brand": "Darkside",
+          "percentage": 30,
+          "tobaccoType": "Dark Blend",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Chaos",
+          "percentage": 15,
+          "amount": 5,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Duft",
+          "percentage": 10,
+          "amount": 3,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Глиняная Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Промойте глиняную чашу Phunnel и высушите."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Lemon, 30% Lime, 15% Mint, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Забейте плотно в чашу, оставляя небольшой зазор."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 3 угля Tom Cococha на калауд."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 4-5 минут перед началом курения."
+        }
+      ],
+      "tips": [
+        "Легкий холодок подчеркивает кислоту цитрусов",
+        "Тщательно перемешайте табак перед забивкой",
+        "Отлично подходит для вечернего курения"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрусы",
+        "лимон",
+        "лайм",
+        "мята",
+        "холодок",
+        "крепкая",
+        "освежающий"
+      ],
+      "rating": 4.4,
+      "reviews": 114,
+      "likes": 68,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 736,
+      "name": "tsitrusovye-grejpfrut-s-myatoy-silnyy-kholod-krepkaya-krepost",
+      "title": "Грейпфрут-помело с сильным ледяным эффектом и мятой (крепкая)",
+      "description": "Терпкий микс грейпфрута и помело с мятой и мощным ледяным эффектом. Для любителей экстремального холода и крепости.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "60-70 минут",
+      "difficulty": "Средне",
+      "recipeType": "Цитрусовый",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Грейпфрут",
+          "brand": "Tangiers",
+          "percentage": 42,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Помело",
+          "brand": "Must Have",
+          "percentage": 28,
+          "tobaccoType": "Dark Blend",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "BlackBurn",
+          "percentage": 14,
+          "amount": 5,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Duft",
+          "percentage": 16,
+          "amount": 6,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Оверпак",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Blackcoco's",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 42% Grapefruit, 28% Pomelo, 14% Mint, 16% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Забейте оверпаком - табак слегка выступает над краем."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите калауд с 3 углями Blackcoco's."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 5 минут для раскрытия вкуса."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Не рекомендуется для новичков - горький цитрус",
+        "Сильный холод требует привычки"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрусы",
+        "грейпфрут",
+        "помело",
+        "мята",
+        "ледяной",
+        "крепкая",
+        "экстрим"
+      ],
+      "rating": 4.1,
+      "reviews": 198,
+      "likes": 119,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 737,
+      "name": "tsitrusovye-apelsin-bez-myaty-bez-kholoda-krepkaya-krepost",
+      "title": "Апельсин-мандарин (крепкая)",
+      "description": "Классический цитрусовый дуэт апельсина и мандарина без добавок. Чистый сочный вкус для ценителей крепких табаков.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "60-75 минут",
+      "difficulty": "Средне",
+      "recipeType": "Цитрусовый",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Апельсин",
+          "brand": "Chaos",
+          "percentage": 60,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Мандарин",
+          "brand": "Darkside",
+          "percentage": 40,
+          "tobaccoType": "Dark Blend",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Глиняная Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Промойте глиняную чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Orange и 40% Tangerine."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Забейте плотно, но не утрамбовывайте."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 3 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на среднем жаре."
+        }
+      ],
+      "tips": [
+        "Чистый цитрусовый вкус без дополнений",
+        "Идеально для вечернего курения",
+        "Не утрамбовывайте табак слишком плотно"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрусы",
+        "апельсин",
+        "мандарин",
+        "крепкая",
+        "классика"
+      ],
+      "rating": 4.7,
+      "reviews": 62,
+      "likes": 37,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 738,
+      "name": "tsitrusovye-limon-bez-myaty-legkiy-kholod-krepkaya-krepost",
+      "title": "Лимон-лайм с лёгким холодком (крепкая)",
+      "description": "Кислый микс лимона и лайма с легким освежающим холодком. Яркий цитрусовый вкус с прохладным послевкусием.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "60-70 минут",
+      "difficulty": "Легко",
+      "recipeType": "Цитрусовый",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Лимон",
+          "brand": "Северный",
+          "percentage": 54,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Лайм",
+          "brand": "Tangiers",
+          "percentage": 36,
+          "tobaccoType": "Dark Blend",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Duft",
+          "percentage": 10,
+          "amount": 3,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 54% Lemon, 36% Lime, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Плотно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 3 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок не перебивает цитрусовый вкус",
+        "Тщательно перемешайте табак перед забивкой",
+        "Отлично подходит для вечернего отдыха"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрусы",
+        "лимон",
+        "лайм",
+        "холодок",
+        "крепкая",
+        "освежающий"
+      ],
+      "rating": 4.9,
+      "reviews": 180,
+      "likes": 108,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 739,
+      "name": "tsitrusovye-grejpfrut-bez-myaty-silnyy-kholod-krepkaya-krepost",
+      "title": "Грейпфрут-помело с сильным ледяным эффектом (крепкая)",
+      "description": "Мощный терпкий микс грейпфрута и помело с экстремальным ледяным эффектом. Для опытных любителей крепкого холода.",
+      "preparationTime": "10-13 минут",
+      "smokingDuration": "60-75 минут",
+      "difficulty": "Средне",
+      "recipeType": "Цитрусовый",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Грейпфрут",
+          "brand": "Darkside",
+          "percentage": 48,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Помело",
+          "brand": "Must Have",
+          "percentage": 32,
+          "tobaccoType": "Dark Blend",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Экстремальный Лед",
+          "brand": "Duft",
+          "percentage": 20,
+          "amount": 6,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Глиняная Phunnel",
+      "packingMethod": "Оверпак",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Промойте и высушите глиняную чашу."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 48% Grapefruit, 32% Pomelo, 20% Extreme Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Забейте оверпаком в чашу Phunnel."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 3 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 4-5 минут."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Не рекомендуется для новичков",
+        "Экстремальный холод требует опыта"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрусы",
+        "грейпфрут",
+        "помело",
+        "ледяной",
+        "крепкая",
+        "экстрим"
+      ],
+      "rating": 4.4,
+      "reviews": 136,
+      "likes": 82,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    }
+  ]
+}

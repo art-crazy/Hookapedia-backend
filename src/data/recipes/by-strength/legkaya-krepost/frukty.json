@@ -1,0 +1,549 @@
+{
+  "recipes": [
+    {
+      "id": 650,
+      "name": "frukty-yabloko-s-myatoy-bez-kholoda-legkaya-krepost",
+      "title": "Яблоко-груша с мятой (лёгкая)",
+      "description": "Классический фруктовый дуэт яблока и груши с освежающей мятой. Легкий вкус для дневного курения.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Фруктовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Яблоко",
+          "brand": "Adalya",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 12,
+          "unit": "г"
+        },
+        {
+          "name": "Груша",
+          "brand": "Fumari",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Azure",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и промойте."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Apple, 30% Pear, 20% Mint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 кубика угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Мята подчеркивает свежесть фруктов",
+        "Идеально для дневного отдыха",
+        "Отличный выбор для начинающих"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "фрукты",
+        "яблоко",
+        "груша",
+        "мята",
+        "легкая",
+        "для начинающих",
+        "дневной"
+      ],
+      "rating": 4.7,
+      "reviews": 55,
+      "likes": 41,
+      "flavorCategory": "frukty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 651,
+      "name": "frukty-persik-s-myatoy-legkiy-kholod-legkaya-krepost",
+      "title": "Персик-нектарин с лёгким холодком и мятой (лёгкая)",
+      "description": "Сочный персиково-нектариновый микс с мятой и легким холодком. Освежающий летний вкус.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "40-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Фруктовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Персик",
+          "brand": "Element",
+          "percentage": 45,
+          "tobaccoType": "Virginia",
+          "amount": 11,
+          "unit": "г"
+        },
+        {
+          "name": "Нектарин",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Peach, 30% Nectarine, 15% Mint, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Холодок усиливает персиковую сладость",
+        "Идеально для летнего дня",
+        "Добавьте лёд в колбу для лучшего раскрытия"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "фрукты",
+        "персик",
+        "нектарин",
+        "мята",
+        "холодок",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.6,
+      "reviews": 91,
+      "likes": 69,
+      "flavorCategory": "frukty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 652,
+      "name": "frukty-vinograd-s-myatoy-silnyy-kholod-legkaya-krepost",
+      "title": "Виноград-дыня с сильным ледяным эффектом и мятой (лёгкая)",
+      "description": "Виноградно-дынный микс с мятой и мощным ледяным эффектом. Освежающий фруктовый взрыв.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Фруктовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Виноград",
+          "brand": "Adalya",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Дыня",
+          "brand": "Fumari",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Element",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 40% Grape, 35% Melon, 15% Mint, 10% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно добавьте лёд в колбу",
+        "Идеально для жаркого летнего дня",
+        "Мощный холод раскрывает фруктовые ноты"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "фрукты",
+        "виноград",
+        "дыня",
+        "мята",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.1,
+      "reviews": 154,
+      "likes": 108,
+      "flavorCategory": "frukty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 653,
+      "name": "frukty-yabloko-bez-myaty-bez-kholoda-legkaya-krepost",
+      "title": "Яблоко-груша (лёгкая)",
+      "description": "Чистый классический дуэт яблока и груши. Натуральный фруктовый вкус без добавок.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Фруктовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Яблоко",
+          "brand": "Azure",
+          "percentage": 60,
+          "tobaccoType": "Virginia",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Груша",
+          "brand": "Fumari",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Apple и 40% Pear."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Классический фруктовый микс",
+        "Идеально для знакомства с кальяном",
+        "Тщательно перемешайте перед забивкой"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "фрукты",
+        "яблоко",
+        "груша",
+        "легкая",
+        "классика",
+        "для начинающих"
+      ],
+      "rating": 4.7,
+      "reviews": 129,
+      "likes": 94,
+      "flavorCategory": "frukty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 654,
+      "name": "frukty-persik-bez-myaty-legkiy-kholod-legkaya-krepost",
+      "title": "Персик-нектарин с лёгким холодком (лёгкая)",
+      "description": "Сочный персиково-нектариновый дуэт с легким освежающим холодком. Летний фруктовый микс.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Легко",
+      "recipeType": "Фруктовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Персик",
+          "brand": "Element",
+          "percentage": 55,
+          "tobaccoType": "Virginia",
+          "amount": 14,
+          "unit": "г"
+        },
+        {
+          "name": "Нектарин",
+          "brand": "Azure",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 55% Peach, 35% Nectarine, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 2-3 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок подчеркивает персик",
+        "Отличный выбор для новичков",
+        "Можно добавить лёд для усиления свежести"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "фрукты",
+        "персик",
+        "нектарин",
+        "холодок",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.6,
+      "reviews": 58,
+      "likes": 42,
+      "flavorCategory": "frukty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 655,
+      "name": "frukty-vinograd-bez-myaty-silnyy-kholod-legkaya-krepost",
+      "title": "Виноград-дыня с сильным ледяным эффектом (лёгкая)",
+      "description": "Виноградно-дынный микс с мощным ледяным ударом. Освежающий контраст сладости и холода.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Фруктовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Виноград",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 13,
+          "unit": "г"
+        },
+        {
+          "name": "Дыня",
+          "brand": "Adalya",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 8,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Grape, 30% Melon, 20% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Идеально для жаркого дня",
+        "Холод раскрывает фруктовые ноты"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "фрукты",
+        "виноград",
+        "дыня",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.1,
+      "reviews": 183,
+      "likes": 127,
+      "flavorCategory": "frukty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    }
+  ]
+}

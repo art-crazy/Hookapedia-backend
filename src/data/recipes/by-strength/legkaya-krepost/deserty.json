@@ -1,0 +1,549 @@
+{
+  "recipes": [
+    {
+      "id": 668,
+      "name": "deserty-vanil-s-myatoy-bez-kholoda-legkaya-krepost",
+      "title": "Ваниль-карамель и мятой (лёгкая)",
+      "description": "Нежный десертный микс с ванилью, карамелью и освежающей мятой. Мягкий сладкий вкус для дневного курения.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Десертный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Ваниль",
+          "brand": "Adalya",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 12,
+          "unit": "г"
+        },
+        {
+          "name": "Карамель",
+          "brand": "Fumari",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Azure",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и тщательно промойте её."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте табаки: 50% Vanilla, 30% Caramel, 20% Mint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше, оставляя 3-4мм до края."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 кубика кокосового угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на слабом жаре, постепенно увеличивая."
+        }
+      ],
+      "tips": [
+        "Идеальный вариант для начинающих",
+        "Мята добавляет свежесть, не перебивая десертный вкус",
+        "Подходит для дневного курения"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "ваниль",
+        "карамель",
+        "мята",
+        "легкая",
+        "для начинающих",
+        "дневной"
+      ],
+      "rating": 4.6,
+      "reviews": 55,
+      "likes": 42,
+      "flavorCategory": "deserty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 669,
+      "name": "deserty-shokolad-s-myatoy-legkiy-kholod-legkaya-krepost",
+      "title": "Шоколад-крем с лёгким холодком и мятой (лёгкая)",
+      "description": "Шоколадно-кремовый микс с освежающей мятой и легким холодком. Мягкий десертный вкус с прохладным послевкусием.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "40-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Десертный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Шоколад",
+          "brand": "Element",
+          "percentage": 45,
+          "tobaccoType": "Virginia",
+          "amount": 11,
+          "unit": "г"
+        },
+        {
+          "name": "Крем",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Chocolate, 30% Cream, 15% Mint, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак в чашу."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед началом курения."
+        }
+      ],
+      "tips": [
+        "Легкий холодок освежает, не перебивая шоколад",
+        "Отличный выбор для первого знакомства с кальяном",
+        "Можно добавить лёд в колбу для усиления эффекта"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "шоколад",
+        "крем",
+        "мята",
+        "холодок",
+        "легкая",
+        "для начинающих"
+      ],
+      "rating": 4.7,
+      "reviews": 162,
+      "likes": 124,
+      "flavorCategory": "deserty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 670,
+      "name": "deserty-pechenie-s-myatoy-silnyy-kholod-legkaya-krepost",
+      "title": "Печенье-молоко с сильным ледяным эффектом и мятой (лёгкая)",
+      "description": "Молочно-печеньковый десерт с мятой и мощным ледяным эффектом. Контраст сладости и холода для жаркого дня.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Десертный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Печенье",
+          "brand": "Adalya",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Молоко",
+          "brand": "Fumari",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Element",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 40% Cookie, 35% Milk, 15% Mint, 10% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно добавьте лёд в колбу",
+        "Идеально для жаркого летнего дня",
+        "Сильный холод может быть некомфортным для некоторых"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "печенье",
+        "молоко",
+        "мята",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.2,
+      "reviews": 59,
+      "likes": 38,
+      "flavorCategory": "deserty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 671,
+      "name": "deserty-vanil-bez-myaty-bez-kholoda-legkaya-krepost",
+      "title": "Ваниль-карамель (лёгкая)",
+      "description": "Классический десертный дуэт ванили и карамели без добавок. Чистый сладкий вкус для ценителей.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Десертный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Ваниль",
+          "brand": "Fumari",
+          "percentage": 60,
+          "tobaccoType": "Virginia",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Карамель",
+          "brand": "Adalya",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Vanilla и 40% Caramel."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте смесь в чашу."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Классический дневной микс для новичков",
+        "Тщательно перемешайте табак перед забивкой",
+        "Не перегревайте в первые минуты"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "ваниль",
+        "карамель",
+        "легкая",
+        "классика",
+        "для начинающих"
+      ],
+      "rating": 4.3,
+      "reviews": 111,
+      "likes": 73,
+      "flavorCategory": "deserty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 672,
+      "name": "deserty-shokolad-bez-myaty-legkiy-kholod-legkaya-krepost",
+      "title": "Шоколад-крем с лёгким холодком (лёгкая)",
+      "description": "Шоколадно-кремовая классика с освежающим холодком. Сладкий десерт с прохладным послевкусием.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Легко",
+      "recipeType": "Десертный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Шоколад",
+          "brand": "Azure",
+          "percentage": 55,
+          "tobaccoType": "Virginia",
+          "amount": 14,
+          "unit": "г"
+        },
+        {
+          "name": "Крем",
+          "brand": "Adalya",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 55% Chocolate, 35% Cream, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 2-3 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок освежает десертный вкус",
+        "Идеально для первого опыта с кальяном",
+        "Можно усилить холод добавлением льда в колбу"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "шоколад",
+        "крем",
+        "холодок",
+        "легкая",
+        "для начинающих"
+      ],
+      "rating": 4.6,
+      "reviews": 87,
+      "likes": 61,
+      "flavorCategory": "deserty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 673,
+      "name": "deserty-pechenie-bez-myaty-silnyy-kholod-legkaya-krepost",
+      "title": "Печенье-молоко с сильным ледяным эффектом (лёгкая)",
+      "description": "Молочно-печеньковый десерт с мощным ледяным ударом. Контраст сладости и холода.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Десертный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Печенье",
+          "brand": "Element",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 13,
+          "unit": "г"
+        },
+        {
+          "name": "Молоко",
+          "brand": "Fumari",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 8,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Cookie, 30% Milk, 20% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак в чашу."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Идеально для жаркого летнего дня",
+        "Сильный холод компенсируется сладостью десерта"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "печенье",
+        "молоко",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.9,
+      "reviews": 166,
+      "likes": 132,
+      "flavorCategory": "deserty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    }
+  ]
+}

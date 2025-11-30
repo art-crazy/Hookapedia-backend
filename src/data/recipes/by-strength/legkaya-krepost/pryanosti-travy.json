@@ -1,0 +1,548 @@
+{
+  "recipes": [
+    {
+      "id": 674,
+      "name": "pryanosti-travy-myata-s-myatoy-bez-kholoda-legkaya-krepost",
+      "title": "Мята-эвкалипт и мятой (лёгкая)",
+      "description": "Освежающий травяной микс с мятой и эвкалиптом. Натуральный свежий вкус для релакса.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Травяной",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 12,
+          "unit": "г"
+        },
+        {
+          "name": "Эвкалипт",
+          "brand": "Element",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Spearmint",
+          "brand": "Azure",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и промойте."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Mint, 30% Eucalyptus, 20% Spearmint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 кубика угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Освежающий микс для релаксации",
+        "Эвкалипт добавляет лечебный оттенок",
+        "Идеально для вечернего отдыха"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "мята",
+        "эвкалипт",
+        "легкая",
+        "освежающий",
+        "релакс"
+      ],
+      "rating": 4.7,
+      "reviews": 183,
+      "likes": 139,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 675,
+      "name": "pryanosti-travy-koritsa-s-myatoy-legkiy-kholod-legkaya-krepost",
+      "title": "Корица-гвоздика с лёгким холодком и мятой (лёгкая)",
+      "description": "Пряный микс корицы и гвоздики с мятой и легким холодком. Согревающий с прохладным послевкусием.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "40-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Пряный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Корица",
+          "brand": "Adalya",
+          "percentage": 45,
+          "tobaccoType": "Virginia",
+          "amount": 11,
+          "unit": "г"
+        },
+        {
+          "name": "Гвоздика",
+          "brand": "Element",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Cinnamon, 30% Clove, 15% Mint, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Холодок балансирует пряность",
+        "Отличный выбор для осеннего вечера",
+        "Мята смягчает интенсивность специй"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "пряности",
+        "корица",
+        "гвоздика",
+        "мята",
+        "холодок",
+        "легкая",
+        "осенний"
+      ],
+      "rating": 4,
+      "reviews": 63,
+      "likes": 44,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 676,
+      "name": "pryanosti-travy-bazilik-s-myatoy-silnyy-kholod-legkaya-krepost",
+      "title": "Базилик-тимьян с сильным ледяным эффектом и мятой (лёгкая)",
+      "description": "Необычный травяной микс базилика и тимьяна с мятой и мощным холодком. Для экспериментаторов.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Травяной",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Базилик",
+          "brand": "Element",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Тимьян",
+          "brand": "Azure",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 40% Basil, 35% Thyme, 15% Mint, 10% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Необычный микс для экспериментаторов",
+        "Обязательно добавьте лёд в колбу",
+        "Холод раскрывает травяные ноты"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "базилик",
+        "тимьян",
+        "мята",
+        "ледяной",
+        "легкая",
+        "необычный"
+      ],
+      "rating": 4.3,
+      "reviews": 160,
+      "likes": 112,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 677,
+      "name": "pryanosti-travy-myata-bez-myaty-bez-kholoda-legkaya-krepost",
+      "title": "Мята-эвкалипт (лёгкая)",
+      "description": "Чистый травяной дуэт мяты и эвкалипта. Натуральный освежающий вкус без добавок.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Травяной",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Мята",
+          "brand": "Azure",
+          "percentage": 60,
+          "tobaccoType": "Virginia",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Эвкалипт",
+          "brand": "Element",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Mint и 40% Eucalyptus."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Классический релаксирующий микс",
+        "Эвкалипт имеет лечебный эффект",
+        "Идеально для вечернего отдыха"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "мята",
+        "эвкалипт",
+        "легкая",
+        "релакс",
+        "для начинающих"
+      ],
+      "rating": 4.3,
+      "reviews": 60,
+      "likes": 41,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 678,
+      "name": "pryanosti-travy-koritsa-bez-myaty-legkiy-kholod-legkaya-krepost",
+      "title": "Корица-гвоздика с лёгким холодком (лёгкая)",
+      "description": "Пряный дуэт корицы и гвоздики с легким освежающим холодком. Согревающий микс с прохладой.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Легко",
+      "recipeType": "Пряный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Корица",
+          "brand": "Fumari",
+          "percentage": 55,
+          "tobaccoType": "Virginia",
+          "amount": 14,
+          "unit": "г"
+        },
+        {
+          "name": "Гвоздика",
+          "brand": "Adalya",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 55% Cinnamon, 35% Clove, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 2-3 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок балансирует пряность",
+        "Отличный выбор для новичков",
+        "Согревающий эффект с прохладой"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "пряности",
+        "корица",
+        "гвоздика",
+        "холодок",
+        "легкая",
+        "осенний"
+      ],
+      "rating": 4.9,
+      "reviews": 177,
+      "likes": 143,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 679,
+      "name": "pryanosti-travy-bazilik-bez-myaty-silnyy-kholod-legkaya-krepost",
+      "title": "Базилик-тимьян с сильным ледяным эффектом (лёгкая)",
+      "description": "Необычный травяной микс с мощным ледяным ударом. Контраст трав и холода.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Травяной",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Базилик",
+          "brand": "Element",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 13,
+          "unit": "г"
+        },
+        {
+          "name": "Тимьян",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 8,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Basil, 30% Thyme, 20% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Необычный микс для смелых",
+        "Холод раскрывает травяные ароматы"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "базилик",
+        "тимьян",
+        "ледяной",
+        "легкая",
+        "необычный"
+      ],
+      "rating": 4.1,
+      "reviews": 91,
+      "likes": 63,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    }
+  ]
+}

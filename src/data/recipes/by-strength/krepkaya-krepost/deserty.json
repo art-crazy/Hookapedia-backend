@@ -1,0 +1,535 @@
+{
+  "recipes": [
+    {
+      "id": 740,
+      "name": "deserty-vanil-s-myatoy-bez-kholoda-krepkaya-krepost",
+      "title": "Ваниль-карамель с мятой (крепкая)",
+      "description": "Насыщенный десертный микс с ванилью, карамелью и освежающей мятой. Глубокий сладкий вкус с ярким мятным послевкусием.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "60-75 минут",
+      "difficulty": "Средне",
+      "recipeType": "Десертный",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Ванильное Небо",
+          "brand": "Darkside",
+          "percentage": 50,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Карамель",
+          "brand": "Adalya",
+          "percentage": 30,
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Ледяная Мята",
+          "brand": "Fumari",
+          "percentage": 20,
+          "amount": 6,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и тщательно промойте её."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте табаки: 50% Vanilla Sky, 30% Caramel, 20% Ice Mint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Плотно распределите смесь в чаше, оставляя 2-3мм до края."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 3 кубика кокосового угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на среднем жаре, постепенно увеличивая."
+        }
+      ],
+      "tips": [
+        "Не рекомендуется для новичков из-за высокой крепости",
+        "Мята добавляет освежающий оттенок десерту",
+        "Лучше курить вечером на полный желудок"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "ваниль",
+        "карамель",
+        "мята",
+        "крепкая",
+        "вечерний",
+        "для опытных"
+      ],
+      "rating": 4.9,
+      "reviews": 144,
+      "likes": 89,
+      "flavorCategory": "deserty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 741,
+      "name": "deserty-shokolad-s-myatoy-legkiy-kholod-krepkaya-krepost",
+      "title": "Шоколад-крем с лёгким холодком и мятой (крепкая)",
+      "description": "Шоколадно-кремовый микс с освежающей мятой и легким холодком. Насыщенный десертный вкус с ледяным послевкусием.",
+      "preparationTime": "12-15 минут",
+      "smokingDuration": "60-70 минут",
+      "difficulty": "Легко",
+      "recipeType": "Десертный",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Шоколад",
+          "brand": "Tangiers",
+          "percentage": 45,
+          "tobaccoType": "Dark Blend",
+          "amount": 13,
+          "unit": "г"
+        },
+        {
+          "name": "Крем",
+          "brand": "Azure",
+          "percentage": 30,
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Лед",
+          "brand": "Duft",
+          "percentage": 10,
+          "amount": 3,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Силиконовая Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте силиконовую чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Chocolate, 30% Cream, 15% Mint, 10% Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Плотно забейте табак, оставляя небольшой зазор до края."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите калауд или фольгу и разместите 3 угля."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-5 минут перед началом курения."
+        }
+      ],
+      "tips": [
+        "Добавьте лёд в колбу для усиления эффекта холодка",
+        "Тщательно перемешайте табак перед забивкой",
+        "Лучше курить вечером на полный желудок"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "шоколад",
+        "крем",
+        "мята",
+        "холодок",
+        "крепкая",
+        "вечерний"
+      ],
+      "rating": 4.4,
+      "reviews": 135,
+      "likes": 78,
+      "flavorCategory": "deserty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 742,
+      "name": "deserty-pechenie-s-myatoy-silnyy-kholod-krepkaya-krepost",
+      "title": "Печенье-молоко с сильным ледяным эффектом и мятой (крепкая)",
+      "description": "Молочно-печеньковый десерт с мятой и мощным ледяным эффектом. Для любителей экстремального холода.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "65-75 минут",
+      "difficulty": "Средне",
+      "recipeType": "Десертный",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Печенье",
+          "brand": "Darkside",
+          "percentage": 40,
+          "tobaccoType": "Dark Blend",
+          "amount": 12,
+          "unit": "г"
+        },
+        {
+          "name": "Молоко",
+          "brand": "Adalya",
+          "percentage": 30,
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Element",
+          "percentage": 15,
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Duft",
+          "percentage": 15,
+          "amount": 4,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Глиняная Phunnel",
+      "packingMethod": "Оверпак",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Blackcoco's",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Промойте глиняную чашу Phunnel и высушите."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 40% Cookie, 30% Milk, 15% Mint, 15% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Забейте оверпаком - табак должен слегка выступать."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Используйте калауд с 3 углями Blackcoco's."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 5 минут для раскрытия вкуса."
+        }
+      ],
+      "tips": [
+        "Не рекомендуется для новичков",
+        "Обязательно добавьте лёд в колбу",
+        "Сильный холод может быть некомфортным для некоторых"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "печенье",
+        "молоко",
+        "мята",
+        "ледяной",
+        "крепкая",
+        "экстрим"
+      ],
+      "rating": 4,
+      "reviews": 154,
+      "likes": 92,
+      "flavorCategory": "deserty",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 743,
+      "name": "deserty-vanil-bez-myaty-bez-kholoda-krepkaya-krepost",
+      "title": "Ваниль-карамель (крепкая)",
+      "description": "Классический десертный дуэт ванили и карамели без добавок. Чистый сладкий вкус для ценителей.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "60-70 минут",
+      "difficulty": "Средне",
+      "recipeType": "Десертный",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Ваниль",
+          "brand": "Darkside",
+          "percentage": 60,
+          "tobaccoType": "Dark Blend",
+          "amount": 18,
+          "unit": "г"
+        },
+        {
+          "name": "Карамель",
+          "brand": "Chaos",
+          "percentage": 40,
+          "amount": 12,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Vanilla и 40% Caramel."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Забейте плотно, но не утрамбовывайте."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 3 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на среднем жаре."
+        }
+      ],
+      "tips": [
+        "Классический вечерний микс для опытных",
+        "Тщательно перемешайте табак перед забивкой",
+        "Не утрамбовывайте табак слишком плотно"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "ваниль",
+        "карамель",
+        "крепкая",
+        "классика",
+        "вечерний"
+      ],
+      "rating": 4.5,
+      "reviews": 78,
+      "likes": 47,
+      "flavorCategory": "deserty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 744,
+      "name": "deserty-shokolad-bez-myaty-legkiy-kholod-krepkaya-krepost",
+      "title": "Шоколад-крем с лёгким холодком (крепкая)",
+      "description": "Шоколадно-кремовая классика с освежающим холодком. Сладкий десерт с прохладным послевкусием.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "55-65 минут",
+      "difficulty": "Легко",
+      "recipeType": "Десертный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Шоколад",
+          "brand": "Must Have",
+          "percentage": 55,
+          "tobaccoType": "Dark Blend",
+          "amount": 16,
+          "unit": "г"
+        },
+        {
+          "name": "Крем",
+          "brand": "Adalya",
+          "percentage": 35,
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Duft",
+          "percentage": 10,
+          "amount": 3,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 55% Chocolate, 35% Cream, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 3 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок не перебивает десертный вкус",
+        "Тщательно перемешайте табак перед забивкой",
+        "Не утрамбовывайте табак слишком плотно"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "шоколад",
+        "крем",
+        "холодок",
+        "крепкая"
+      ],
+      "rating": 4.2,
+      "reviews": 85,
+      "likes": 51,
+      "flavorCategory": "deserty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    },
+    {
+      "id": 745,
+      "name": "deserty-pechenie-bez-myaty-silnyy-kholod-krepkaya-krepost",
+      "title": "Печенье-молоко с сильным ледяным эффектом (крепкая)",
+      "description": "Молочно-печеньковый десерт с мощным ледяным ударом. Контраст сладости и холода.",
+      "preparationTime": "10-13 минут",
+      "smokingDuration": "60-75 минут",
+      "difficulty": "Средне",
+      "recipeType": "Десертный",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Тесто для печенья",
+          "brand": "Burn",
+          "percentage": 50,
+          "tobaccoType": "Dark Blend",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Молоко",
+          "brand": "Северный",
+          "percentage": 30,
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Экстремальный Лед",
+          "brand": "Duft",
+          "percentage": 20,
+          "amount": 6,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Глиняная Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Промойте и высушите глиняную чашу."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Cookie, 30% Milk, 20% Extreme Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Забейте плотно в чашу Phunnel."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 3 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 4-5 минут."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Не рекомендуется для новичков",
+        "Экстремальный холод может быть некомфортным"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "десерт",
+        "печенье",
+        "молоко",
+        "ледяной",
+        "крепкая",
+        "экстрим"
+      ],
+      "rating": 4.4,
+      "reviews": 73,
+      "likes": 44,
+      "flavorCategory": "deserty",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "krepkaya-krepost"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "recipes": [
+    {
+      "id": 710,
+      "name": "pryanosti-travy-myata-s-myatoy-bez-kholoda-srednyaya-krepost",
+      "title": "Мята-эвкалипт с мятой (средняя)",
+      "description": "Освежающий микс мяты и эвкалипта с дополнительной мятой. Яркий травяной вкус с интенсивной свежестью.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "50-60 минут",
+      "difficulty": "Средне",
+      "recipeType": "Травяной",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Burley",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Эвкалипт",
+          "brand": "Element",
+          "percentage": 33,
+          "tobaccoType": "Burley",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Spearmint",
+          "brand": "Adalya",
+          "percentage": 17,
+          "tobaccoType": "Burley",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и тщательно промойте её."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте табаки: 50% Mint, 33% Eucalyptus, 17% Spearmint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше, оставляя 2-3мм до края."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 3 кубика кокосового угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на среднем жаре."
+        }
+      ],
+      "tips": [
+        "Очень освежающий микс для любителей мяты",
+        "Тщательно перемешайте табак перед забивкой",
+        "Идеально для дневного курения"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "мята",
+        "эвкалипт",
+        "средняя крепость",
+        "освежающий"
+      ],
+      "rating": 4.9,
+      "reviews": 129,
+      "likes": 77,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "srednyaya-krepost"
+    },
+    {
+      "id": 711,
+      "name": "pryanosti-travy-koritsa-s-myatoy-legkiy-kholod-srednyaya-krepost",
+      "title": "Корица-гвоздика с лёгким холодком и мятой (средняя)",
+      "description": "Пряный микс корицы и гвоздики с мятой и легким холодком. Теплые специи с освежающим эффектом.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "50-60 минут",
+      "difficulty": "Легко",
+      "recipeType": "Пряный",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Корица",
+          "brand": "Tangiers",
+          "percentage": 45,
+          "tobaccoType": "Burley",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Гвоздика",
+          "brand": "Darkside",
+          "percentage": 30,
+          "tobaccoType": "Burley",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 16,
+          "tobaccoType": "Burley",
+          "amount": 5,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Duft",
+          "percentage": 9,
+          "tobaccoType": "Burley",
+          "amount": 3,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Силиконовая Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте силиконовую чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Cinnamon, 30% Clove, 16% Mint, 9% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите калауд и разместите 3 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-5 минут перед началом курения."
+        }
+      ],
+      "tips": [
+        "Добавьте лёд в колбу для усиления эффекта холодка",
+        "Контраст теплых специй и холода создает уникальный вкус",
+        "Идеально для вечернего курения"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "пряности",
+        "корица",
+        "гвоздика",
+        "мята",
+        "холодок",
+        "средняя крепость",
+        "пряный"
+      ],
+      "rating": 4.2,
+      "reviews": 59,
+      "likes": 35,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "srednyaya-krepost"
+    },
+    {
+      "id": 712,
+      "name": "pryanosti-travy-bazilik-s-myatoy-silnyy-kholod-srednyaya-krepost",
+      "title": "Базилик-тимьян с сильным ледяным эффектом и мятой (средняя)",
+      "description": "Ароматный микс базилика и тимьяна с мятой и мощным ледяным эффектом. Для любителей необычных травяных миксов.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "50-60 минут",
+      "difficulty": "Легко",
+      "recipeType": "Травяной",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Базилик",
+          "brand": "Element",
+          "percentage": 42,
+          "tobaccoType": "Burley",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Тимьян",
+          "brand": "Chaos",
+          "percentage": 28,
+          "tobaccoType": "Burley",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 14,
+          "tobaccoType": "Burley",
+          "amount": 5,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Duft",
+          "percentage": 16,
+          "tobaccoType": "Burley",
+          "amount": 6,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Blackcoco's",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и промойте её."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 42% Basil, 28% Thyme, 14% Mint, 16% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Плотно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Используйте калауд с 3 углями Blackcoco's."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 4-5 минут для раскрытия вкуса."
+        }
+      ],
+      "tips": [
+        "Обязательно добавьте лёд в колбу",
+        "Необычное сочетание трав и холода",
+        "Тщательно перемешайте табак перед забивкой"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "базилик",
+        "тимьян",
+        "мята",
+        "ледяной",
+        "средняя крепость",
+        "необычный"
+      ],
+      "rating": 4.6,
+      "reviews": 54,
+      "likes": 32,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "srednyaya-krepost"
+    },
+    {
+      "id": 713,
+      "name": "pryanosti-travy-myata-bez-myaty-bez-kholoda-srednyaya-krepost",
+      "title": "Мята-эвкалипт (средняя)",
+      "description": "Чистый освежающий дуэт мяты и эвкалипта. Интенсивный травяной вкус без добавок.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "50-60 минут",
+      "difficulty": "Средне",
+      "recipeType": "Травяной",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 60,
+          "tobaccoType": "Burley",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Эвкалипт",
+          "brand": "Element",
+          "percentage": 40,
+          "tobaccoType": "Burley",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Mint и 40% Eucalyptus."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше, оставляя зазор до края."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 3 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на среднем жаре."
+        }
+      ],
+      "tips": [
+        "Классический освежающий микс",
+        "Тщательно перемешайте табак перед забивкой",
+        "Идеально для дневного курения"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "мята",
+        "эвкалипт",
+        "средняя крепость",
+        "классика",
+        "освежающий"
+      ],
+      "rating": 4.8,
+      "reviews": 84,
+      "likes": 50,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "srednyaya-krepost"
+    },
+    {
+      "id": 714,
+      "name": "pryanosti-travy-koritsa-bez-myaty-legkiy-kholod-srednyaya-krepost",
+      "title": "Корица-гвоздика с лёгким холодком (средняя)",
+      "description": "Пряный микс корицы и гвоздики с легким освежающим холодком. Теплые специи с прохладным послевкусием.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "50-60 минут",
+      "difficulty": "Легко",
+      "recipeType": "Пряный",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Корица",
+          "brand": "Tangiers",
+          "percentage": 54,
+          "tobaccoType": "Burley",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Гвоздика",
+          "brand": "Darkside",
+          "percentage": 35,
+          "tobaccoType": "Burley",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Duft",
+          "percentage": 11,
+          "tobaccoType": "Burley",
+          "amount": 3,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Силиконовая Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте силиконовую чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 54% Cinnamon, 35% Clove, 11% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 3 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок не перебивает пряный вкус",
+        "Идеально подходит для вечернего курения",
+        "Добавьте лёд в колбу для усиления эффекта"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "пряности",
+        "корица",
+        "гвоздика",
+        "холодок",
+        "средняя крепость",
+        "пряный"
+      ],
+      "rating": 4.8,
+      "reviews": 177,
+      "likes": 106,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "srednyaya-krepost"
+    },
+    {
+      "id": 715,
+      "name": "pryanosti-travy-bazilik-bez-myaty-silnyy-kholod-srednyaya-krepost",
+      "title": "Базилик-тимьян с сильным ледяным эффектом (средняя)",
+      "description": "Ароматный микс базилика и тимьяна с мощным ледяным эффектом. Для любителей необычных травяных миксов.",
+      "preparationTime": "10-15 минут",
+      "smokingDuration": "50-60 минут",
+      "difficulty": "Легко",
+      "recipeType": "Травяной",
+      "persons": 2,
+      "ingredients": [
+        {
+          "name": "Базилик",
+          "brand": "Element",
+          "percentage": 48,
+          "tobaccoType": "Burley",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Тимьян",
+          "brand": "Chaos",
+          "percentage": 33,
+          "tobaccoType": "Burley",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Экстремальный Лед",
+          "brand": "Duft",
+          "percentage": 19,
+          "tobaccoType": "Burley",
+          "amount": 6,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Плотная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 3,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и промойте её."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 48% Basil, 33% Thyme, 19% Extreme Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Плотно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 3 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 4-5 минут."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Экстремальный холод может быть некомфортным для некоторых",
+        "Тщательно перемешайте табак перед забивкой"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "травы",
+        "базилик",
+        "тимьян",
+        "ледяной",
+        "средняя крепость",
+        "экстрим"
+      ],
+      "rating": 4.2,
+      "reviews": 85,
+      "likes": 51,
+      "flavorCategory": "pryanosti-travy",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "srednyaya-krepost"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "recipes": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Recipe"
+            }
+        }
+    },
+    "definitions": {
+        "Recipe": {
+            "type": "object",
+            "required": [
+                "id",
+                "name",
+                "title",
+                "description",
+                "preparationTime",
+                "smokingDuration",
+                "difficulty",
+                "recipeType",
+                "persons",
+                "ingredients",
+                "bowlType",
+                "packingMethod",
+                "charcoal",
+                "smokeLevel",
+                "steps",
+                "imageMain",
+                "tags",
+                "rating",
+                "reviews",
+                "likes"
+            ],
+            "properties": {
+                "id": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "preparationTime": {
+                    "type": "string"
+                },
+                "smokingDuration": {
+                    "type": "string"
+                },
+                "difficulty": {
+                    "type": "string",
+                    "enum": [
+                        "Легко",
+                        "Средне",
+                        "Сложно"
+                    ]
+                },
+                "recipeType": {
+                    "type": "string"
+                },
+                "persons": {
+                    "type": "number",
+                    "minimum": 1
+                },
+                "ingredients": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Ingredient"
+                    }
+                },
+                "bowlType": {
+                    "type": "string"
+                },
+                "packingMethod": {
+                    "type": "string",
+                    "enum": [
+                        "Воздушная",
+                        "Плотная",
+                        "Оверпак"
+                    ]
+                },
+                "charcoal": {
+                    "$ref": "#/definitions/Charcoal"
+                },
+                "smokeLevel": {
+                    "type": "string",
+                    "enum": [
+                        "Низкий",
+                        "Средний",
+                        "Высокий"
+                    ]
+                },
+                "steps": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Step"
+                    }
+                },
+                "tips": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "imageMain": {
+                    "type": "string"
+                },
+                "tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "rating": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 5
+                },
+                "reviews": {
+                    "type": "number"
+                },
+                "likes": {
+                    "type": "number"
+                },
+                "flavorCategory": {
+                    "type": "string"
+                },
+                "mintCategory": {
+                    "type": "string"
+                },
+                "coolingCategory": {
+                    "type": "string"
+                },
+                "strengthCategory": {
+                    "type": "string"
+                }
+            }
+        },
+        "Ingredient": {
+            "type": "object",
+            "required": [
+                "name",
+                "brand",
+                "percentage"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Must be in Russian"
+                },
+                "brand": {
+                    "type": "string"
+                },
+                "percentage": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                },
+                "tobaccoType": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "number"
+                },
+                "unit": {
+                    "type": "string"
+                },
+                "alternatives": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "Charcoal": {
+            "type": "object",
+            "required": [
+                "type",
+                "pieces",
+                "size"
+            ],
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "brand": {
+                    "type": "string"
+                },
+                "pieces": {
+                    "type": "number"
+                },
+                "size": {
+                    "type": "string"
+                }
+            }
+        },
+        "Step": {
+            "type": "object",
+            "required": [
+                "title",
+                "text"
+            ],
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

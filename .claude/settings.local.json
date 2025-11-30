@@ -12,7 +12,10 @@
       "Bash(npm run batch:generate:*)",
       "Bash(npx ts-node:*)",
       "Bash(npm run build:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(copy .env.example .env)",
+      "Bash(cp:*)",
+      "Bash(findstr:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,549 @@
+{
+  "recipes": [
+    {
+      "id": 662,
+      "name": "tsitrusovye-apelsin-s-myatoy-bez-kholoda-legkaya-krepost",
+      "title": "Апельсин-мандарин и мятой (лёгкая)",
+      "description": "Яркий цитрусовый микс апельсина и мандарина с освежающей мятой. Сочный бодрящий вкус.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Цитрусовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Апельсин",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 12,
+          "unit": "г"
+        },
+        {
+          "name": "Мандарин",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Adalya",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и промойте."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Orange, 30% Tangerine, 20% Mint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 кубика угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Мята подчеркивает цитрусовую свежесть",
+        "Идеально для бодрого утра",
+        "Отличный выбор для начинающих"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрус",
+        "апельсин",
+        "мандарин",
+        "мята",
+        "легкая",
+        "бодрящий",
+        "дневной"
+      ],
+      "rating": 4.3,
+      "reviews": 159,
+      "likes": 114,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 663,
+      "name": "tsitrusovye-limon-s-myatoy-legkiy-kholod-legkaya-krepost",
+      "title": "Лимон-лайм с лёгким холодком и мятой (лёгкая)",
+      "description": "Кислый цитрусовый дуэт лимона и лайма с мятой и легким холодком. Максимально освежающий микс.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "40-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Цитрусовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Лимон",
+          "brand": "Element",
+          "percentage": 45,
+          "tobaccoType": "Virginia",
+          "amount": 11,
+          "unit": "г"
+        },
+        {
+          "name": "Лайм",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Lemon, 30% Lime, 15% Mint, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Максимально освежающий цитрусовый микс",
+        "Идеально для жаркого дня",
+        "Добавьте лёд в колбу для усиления эффекта"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрус",
+        "лимон",
+        "лайм",
+        "мята",
+        "холодок",
+        "легкая",
+        "освежающий"
+      ],
+      "rating": 4.5,
+      "reviews": 81,
+      "likes": 59,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 664,
+      "name": "tsitrusovye-grejpfrut-s-myatoy-silnyy-kholod-legkaya-krepost",
+      "title": "Грейпфрут-помело с сильным ледяным эффектом и мятой (лёгкая)",
+      "description": "Горьковато-сладкий цитрусовый микс с мятой и мощным холодком. Освежающий взрыв вкуса.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Цитрусовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Грейпфрут",
+          "brand": "Adalya",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Помело",
+          "brand": "Fumari",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Element",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 40% Grapefruit, 35% Pomelo, 15% Mint, 10% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно добавьте лёд в колбу",
+        "Идеально для жаркого летнего дня",
+        "Горчинка грейпфрута балансируется холодом"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрус",
+        "грейпфрут",
+        "помело",
+        "мята",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.5,
+      "reviews": 194,
+      "likes": 151,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 665,
+      "name": "tsitrusovye-apelsin-bez-myaty-bez-kholoda-legkaya-krepost",
+      "title": "Апельсин-мандарин (лёгкая)",
+      "description": "Чистый цитрусовый дуэт апельсина и мандарина. Сочный бодрящий вкус без добавок.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Цитрусовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Апельсин",
+          "brand": "Azure",
+          "percentage": 60,
+          "tobaccoType": "Virginia",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Мандарин",
+          "brand": "Fumari",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Orange и 40% Tangerine."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Классический цитрусовый микс",
+        "Идеально для бодрого дня",
+        "Отличный выбор для новичков"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрус",
+        "апельсин",
+        "мандарин",
+        "легкая",
+        "бодрящий",
+        "для начинающих"
+      ],
+      "rating": 4.9,
+      "reviews": 94,
+      "likes": 73,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 666,
+      "name": "tsitrusovye-limon-bez-myaty-legkiy-kholod-legkaya-krepost",
+      "title": "Лимон-лайм с лёгким холодком (лёгкая)",
+      "description": "Кислый цитрусовый дуэт с легким освежающим холодком. Бодрящий микс для жаркого дня.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Легко",
+      "recipeType": "Цитрусовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Лимон",
+          "brand": "Element",
+          "percentage": 55,
+          "tobaccoType": "Virginia",
+          "amount": 14,
+          "unit": "г"
+        },
+        {
+          "name": "Лайм",
+          "brand": "Azure",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 55% Lemon, 35% Lime, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 2-3 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок усиливает кислинку",
+        "Отлично освежает в жару",
+        "Можно добавить лёд для усиления"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрус",
+        "лимон",
+        "лайм",
+        "холодок",
+        "легкая",
+        "освежающий"
+      ],
+      "rating": 4.7,
+      "reviews": 91,
+      "likes": 67,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 667,
+      "name": "tsitrusovye-grejpfrut-bez-myaty-silnyy-kholod-legkaya-krepost",
+      "title": "Грейпфрут-помело с сильным ледяным эффектом (лёгкая)",
+      "description": "Горьковато-сладкий цитрусовый микс с мощным ледяным ударом. Контраст горечи и холода.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Цитрусовый",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Грейпфрут",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 13,
+          "unit": "г"
+        },
+        {
+          "name": "Помело",
+          "brand": "Adalya",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 8,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Grapefruit, 30% Pomelo, 20% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Идеально для жаркого дня",
+        "Холод смягчает горчинку грейпфрута"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "цитрус",
+        "грейпфрут",
+        "помело",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.5,
+      "reviews": 188,
+      "likes": 138,
+      "flavorCategory": "tsitrusovye",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    }
+  ]
+}

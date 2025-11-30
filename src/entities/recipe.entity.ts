@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Index } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, UpdateDateColumn, Index } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 
 @Entity('recipes')
@@ -21,78 +21,108 @@ export class Recipe {
   @Column('text')
   description: string;
 
-  @ApiProperty({ description: 'Cooking time' })
+  @ApiProperty({ description: 'Preparation time (e.g., "10-15 минут")' })
   @Column()
-  cookTime: string;
+  preparationTime: string;
 
-  @ApiProperty({ description: 'Difficulty level of the recipe' })
+  @ApiProperty({ description: 'Smoking duration (e.g., "45-60 минут")' })
+  @Column()
+  smokingDuration: string;
+
+  @ApiProperty({ description: 'Difficulty level (Легко, Средне, Сложно)' })
   @Column()
   difficulty: string;
 
-  @ApiProperty({
-    description: 'Nutritional information',
-    example: {
-      calories: { value: 282.5, unit: 'g' },
-      protein: { value: 15.8, unit: 'g' },
-      fat: { value: 12.3, unit: 'g' },
-      carbs: { value: 29.4, unit: 'g' }
-    }
-  })
-  @Column('jsonb')
-  nutrition: {
-    calories: { value: number; unit: string };
-    protein: { value: number; unit: string };
-    fat: { value: number; unit: string };
-    carbs: { value: number; unit: string };
-  };
-
-  @ApiProperty({ description: 'Cuisine type' })
+  @ApiProperty({ description: 'Recipe type (Фруктовый, Десертный, Экзотический и т.д.)' })
   @Column()
-  cuisine: string;
+  recipeType: string;
 
-  @ApiProperty({ description: 'Number of servings' })
-  @Column()
-  servings: number;
+  @ApiProperty({ description: 'Number of people (1-3 человека)' })
+  @Column({ default: 1 })
+  persons: number;
 
   @ApiProperty({
-    description: 'List of ingredients',
+    description: 'List of tobacco ingredients',
     example: [
-      { name: 'Flour', amount: 500, unit: 'g' },
-      { name: 'Eggs', amount: 2, unit: 'pcs' }
+      {
+        name: 'Vanilla Ice Cream',
+        brand: 'Darkside',
+        percentage: 40,
+        tobaccoType: 'Dark Blend',
+        amount: 12,
+        unit: 'г'
+      }
     ]
   })
   @Column('jsonb')
   ingredients: Array<{
     name: string;
-    amount: number;
-    unit: string;
+    brand: string;
+    percentage: number;
+    tobaccoType?: string;
+    amount?: number;
+    unit?: string;
+    alternatives?: string[];
   }>;
 
   @ApiProperty({
-    description: 'Cooking steps',
+    description: 'Preparation steps',
     example: [
       {
-        image: '/path/to/image.jpg',
         title: 'Step 1',
-        text: 'Mix ingredients'
+        text: 'Mix ingredients',
+        image: '/path/to/image.jpg'
       }
     ]
   })
   @Column('jsonb')
   steps: Array<{
-    image: string;
     title: string;
     text: string;
+    image?: string;
   }>;
 
   @ApiProperty({ description: 'Main image URL of the recipe' })
   @Column()
   imageMain: string;
 
-  @ApiProperty({ description: 'List of category tags' })
+  @ApiProperty({ description: 'Bowl type (Phunnel, Funnel, Egyptian и т.д.)' })
+  @Column()
+  bowlType: string;
+
+  @ApiProperty({ description: 'Packing method (Воздушная, Плотная, Оверпак)' })
+  @Column()
+  packingMethod: string;
+
+  @ApiProperty({
+    description: 'Charcoal configuration',
+    example: {
+      type: 'Кокосовый',
+      brand: 'Cocobrico',
+      pieces: 3,
+      size: '25мм куб'
+    }
+  })
+  @Column('jsonb')
+  charcoal: {
+    type: string;
+    brand?: string;
+    pieces: number;
+    size: string;
+  };
+
+  @ApiProperty({ description: 'Smoke level (Низкий, Средний, Высокий)' })
+  @Column()
+  smokeLevel: string;
+
+  @ApiProperty({ description: 'Search and filter tags', type: [String] })
   @Column('simple-array')
   @Index()
-  categories: string[];
+  tags: string[];
+
+  @ApiProperty({ description: 'Smoking tips', type: [String], required: false })
+  @Column('simple-array', { nullable: true })
+  tips: string[];
 
   @ApiProperty({ description: 'Flavor category (frukty, yagody, tsitrusovye, deserty, pryanosti-travy, ekzotika)', required: false })
   @Column({ nullable: true })
@@ -115,16 +145,16 @@ export class Recipe {
   strengthCategory: string;
 
   @ApiProperty({ description: 'Recipe rating (0-5)' })
-  @Column('decimal', { precision: 3, scale: 1 })
+  @Column('decimal', { precision: 3, scale: 1, default: 0 })
   rating: number;
 
   @ApiProperty({ description: 'Number of reviews' })
-  @Column()
+  @Column({ default: 0 })
   reviews: number;
 
-  @ApiProperty({ description: 'Creation timestamp' })
-  @CreateDateColumn()
-  createdAt: Date;
+  @ApiProperty({ description: 'Number of likes' })
+  @Column({ default: 0 })
+  likes: number;
 
   @ApiProperty({ description: 'Last update timestamp' })
   @UpdateDateColumn()

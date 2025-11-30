@@ -19,18 +19,22 @@ export function loadAllRecipes(): RecipeCollection {
   for (const strengthCategory of strengthCategories) {
     const categoryPath = path.join(strengthDir, strengthCategory);
     const flavorFiles = fs.readdirSync(categoryPath)
-      .filter(file => file.endsWith('.ts') && file !== 'index.ts');
+      .filter(file => file.endsWith('.json'));
 
     // Load each flavor category file
     for (const flavorFile of flavorFiles) {
       const filePath = path.join(categoryPath, flavorFile);
       try {
-        const { recipes } = require(filePath) as { recipes: RecipeCollection };
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        const { recipes } = JSON.parse(fileContent);
 
-        // Merge recipes into the main collection
-        Object.assign(allRecipes, recipes);
+        if (Array.isArray(recipes)) {
+          recipes.forEach((recipe: any) => {
+            allRecipes[recipe.id] = recipe;
+          });
+          console.log(`Loaded ${recipes.length} recipes from ${strengthCategory}/${flavorFile}`);
+        }
 
-        console.log(`Loaded ${Object.keys(recipes).length} recipes from ${strengthCategory}/${flavorFile}`);
       } catch (error) {
         console.error(`Error loading recipes from ${filePath}:`, error);
       }

@@ -1,0 +1,549 @@
+{
+  "recipes": [
+    {
+      "id": 656,
+      "name": "yagody-malina-s-myatoy-bez-kholoda-legkaya-krepost",
+      "title": "Малина-черника и мятой (лёгкая)",
+      "description": "Ягодный микс малины и черники с освежающей мятой. Сладкий лесной вкус для дневного курения.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Ягодный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Малина",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 12,
+          "unit": "г"
+        },
+        {
+          "name": "Черника",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Adalya",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и промойте."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Raspberry, 30% Blueberry, 20% Mint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 кубика угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Мята подчеркивает ягодную сладость",
+        "Идеально для дневного отдыха",
+        "Отличный выбор для начинающих"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "ягоды",
+        "малина",
+        "черника",
+        "мята",
+        "легкая",
+        "для начинающих",
+        "дневной"
+      ],
+      "rating": 4.4,
+      "reviews": 103,
+      "likes": 74,
+      "flavorCategory": "yagody",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 657,
+      "name": "yagody-klubnika-s-myatoy-legkiy-kholod-legkaya-krepost",
+      "title": "Клубника-ежевика с лёгким холодком и мятой (лёгкая)",
+      "description": "Сладкий ягодный дуэт клубники и ежевики с мятой и легким холодком. Летний освежающий вкус.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "40-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Ягодный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Клубника",
+          "brand": "Element",
+          "percentage": 45,
+          "tobaccoType": "Virginia",
+          "amount": 11,
+          "unit": "г"
+        },
+        {
+          "name": "Ежевика",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Strawberry, 30% Blackberry, 15% Mint, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Холодок усиливает ягодную свежесть",
+        "Идеально для летнего дня",
+        "Добавьте лёд в колбу для лучшего раскрытия"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "ягоды",
+        "клубника",
+        "ежевика",
+        "мята",
+        "холодок",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.5,
+      "reviews": 148,
+      "likes": 109,
+      "flavorCategory": "yagody",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 658,
+      "name": "yagody-vishnya-s-myatoy-silnyy-kholod-legkaya-krepost",
+      "title": "Вишня-смородина с сильным ледяным эффектом и мятой (лёгкая)",
+      "description": "Кисло-сладкий ягодный микс с мятой и мощным ледяным эффектом. Освежающий ягодный взрыв.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Ягодный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Вишня",
+          "brand": "Adalya",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Смородина",
+          "brand": "Fumari",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Element",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 40% Cherry, 35% Currant, 15% Mint, 10% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно добавьте лёд в колбу",
+        "Идеально для жаркого летнего дня",
+        "Мощный холод раскрывает ягодные ноты"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "ягоды",
+        "вишня",
+        "смородина",
+        "мята",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.2,
+      "reviews": 168,
+      "likes": 118,
+      "flavorCategory": "yagody",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 659,
+      "name": "yagody-malina-bez-myaty-bez-kholoda-legkaya-krepost",
+      "title": "Малина-черника (лёгкая)",
+      "description": "Чистый лесной дуэт малины и черники. Натуральный сладкий ягодный вкус без добавок.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Ягодный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Малина",
+          "brand": "Azure",
+          "percentage": 60,
+          "tobaccoType": "Virginia",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Черника",
+          "brand": "Fumari",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Raspberry и 40% Blueberry."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Классический ягодный микс",
+        "Идеально для знакомства с кальяном",
+        "Тщательно перемешайте перед забивкой"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "ягоды",
+        "малина",
+        "черника",
+        "легкая",
+        "лесные ягоды",
+        "для начинающих"
+      ],
+      "rating": 4.6,
+      "reviews": 145,
+      "likes": 106,
+      "flavorCategory": "yagody",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 660,
+      "name": "yagody-klubnika-bez-myaty-legkiy-kholod-legkaya-krepost",
+      "title": "Клубника-ежевика с лёгким холодком (лёгкая)",
+      "description": "Сладкий ягодный дуэт с легким освежающим холодком. Летний ягодный микс.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Легко",
+      "recipeType": "Ягодный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Клубника",
+          "brand": "Element",
+          "percentage": 55,
+          "tobaccoType": "Virginia",
+          "amount": 14,
+          "unit": "г"
+        },
+        {
+          "name": "Ежевика",
+          "brand": "Azure",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 55% Strawberry, 35% Blackberry, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 2-3 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок подчеркивает ягоды",
+        "Отличный выбор для новичков",
+        "Можно добавить лёд для усиления свежести"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "ягоды",
+        "клубника",
+        "ежевика",
+        "холодок",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.5,
+      "reviews": 136,
+      "likes": 99,
+      "flavorCategory": "yagody",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 661,
+      "name": "yagody-vishnya-bez-myaty-silnyy-kholod-legkaya-krepost",
+      "title": "Вишня-смородина с сильным ледяным эффектом (лёгкая)",
+      "description": "Кисло-сладкий ягодный микс с мощным ледяным ударом. Контраст ягодной сладости и холода.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Ягодный",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Вишня",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 13,
+          "unit": "г"
+        },
+        {
+          "name": "Смородина",
+          "brand": "Adalya",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 8,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Cherry, 30% Currant, 20% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбу",
+        "Идеально для жаркого дня",
+        "Холод раскрывает ягодные ароматы"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "ягоды",
+        "вишня",
+        "смородина",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4,
+      "reviews": 180,
+      "likes": 124,
+      "flavorCategory": "yagody",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    }
+  ]
+}

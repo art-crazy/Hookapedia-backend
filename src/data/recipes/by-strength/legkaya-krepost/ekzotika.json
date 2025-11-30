@@ -1,0 +1,549 @@
+{
+  "recipes": [
+    {
+      "id": 680,
+      "name": "ekzotika-mango-s-myatoy-bez-kholoda-legkaya-krepost",
+      "title": "Манго-папайя и мятой (лёгкая)",
+      "description": "Экзотический тропический микс с манго, папайей и освежающей мятой. Сочный фруктовый вкус для дневного курения.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Экзотический",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Манго",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 12,
+          "unit": "г"
+        },
+        {
+          "name": "Папайя",
+          "brand": "Azure",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Adalya",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel и промойте."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Mango, 30% Papaya, 20% Mint."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь в чаше."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 кубика угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начинайте курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Мята подчеркивает тропические ноты",
+        "Идеально для дневного отдыха",
+        "Можно добавить лёд в колбу для свежести"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "экзотика",
+        "манго",
+        "папайя",
+        "мята",
+        "легкая",
+        "тропический",
+        "дневной"
+      ],
+      "rating": 4.3,
+      "reviews": 94,
+      "likes": 67,
+      "flavorCategory": "ekzotika",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 681,
+      "name": "ekzotika-lichi-s-myatoy-legkiy-kholod-legkaya-krepost",
+      "title": "Личи-рамбутан с лёгким холодком и мятой (лёгкая)",
+      "description": "Экзотический дуэт личи и рамбутана с мятой и легким холодком. Освежающий азиатский микс.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "40-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Экзотический",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Личи",
+          "brand": "Azure",
+          "percentage": 45,
+          "tobaccoType": "Virginia",
+          "amount": 11,
+          "unit": "г"
+        },
+        {
+          "name": "Рамбутан",
+          "brand": "Element",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 7,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Fumari",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 45% Lychee, 30% Rambutan, 15% Mint, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 3-4 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Холодок усиливает экзотическую свежесть",
+        "Отличный выбор для знакомства с азиатскими вкусами",
+        "Добавьте лёд в колбу для лучшего раскрытия"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "экзотика",
+        "личи",
+        "рамбутан",
+        "мята",
+        "холодок",
+        "легкая",
+        "азиатский"
+      ],
+      "rating": 4.2,
+      "reviews": 67,
+      "likes": 49,
+      "flavorCategory": "ekzotika",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 682,
+      "name": "ekzotika-guava-s-myatoy-silnyy-kholod-legkaya-krepost",
+      "title": "Гуава-карамбола с сильным ледяным эффектом и мятой (лёгкая)",
+      "description": "Тропический микс гуавы и карамболы с мятой и мощным ледяным эффектом. Освежающий экзотический взрыв.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Экзотический",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Гуава",
+          "brand": "Adalya",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        },
+        {
+          "name": "Карамбола",
+          "brand": "Fumari",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Мята",
+          "brand": "Element",
+          "percentage": 15,
+          "tobaccoType": "Virginia",
+          "amount": 4,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 40% Guava, 35% Starfruit, 15% Mint, 10% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно добавьте лёд в колбу",
+        "Идеально для жаркого летнего дня",
+        "Мощный холод раскрывает тропические ноты"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "экзотика",
+        "гуава",
+        "карамбола",
+        "мята",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.7,
+      "reviews": 181,
+      "likes": 142,
+      "flavorCategory": "ekzotika",
+      "mintCategory": "s-myatoy",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 683,
+      "name": "ekzotika-mango-bez-myaty-bez-kholoda-legkaya-krepost",
+      "title": "Манго-папайя (лёгкая)",
+      "description": "Чистый тропический дуэт манго и папайи. Сочный экзотический вкус без добавок.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Средне",
+      "recipeType": "Экзотический",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Манго",
+          "brand": "Azure",
+          "percentage": 60,
+          "tobaccoType": "Virginia",
+          "amount": 15,
+          "unit": "г"
+        },
+        {
+          "name": "Папайя",
+          "brand": "Fumari",
+          "percentage": 40,
+          "tobaccoType": "Virginia",
+          "amount": 10,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте 60% Mango и 40% Papaya."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разожгите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Начните курение на слабом жаре."
+        }
+      ],
+      "tips": [
+        "Классический тропический микс",
+        "Идеально для знакомства с экзотическими вкусами",
+        "Тщательно перемешайте перед забивкой"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "экзотика",
+        "манго",
+        "папайя",
+        "легкая",
+        "тропический",
+        "для начинающих"
+      ],
+      "rating": 4.9,
+      "reviews": 73,
+      "likes": 58,
+      "flavorCategory": "ekzotika",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "bez-kholoda",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 684,
+      "name": "ekzotika-lichi-bez-myaty-legkiy-kholod-legkaya-krepost",
+      "title": "Личи-рамбутан с лёгким холодком (лёгкая)",
+      "description": "Экзотический азиатский дуэт с легким освежающим холодком. Нежный фруктовый микс.",
+      "preparationTime": "8-10 минут",
+      "smokingDuration": "40-45 минут",
+      "difficulty": "Легко",
+      "recipeType": "Экзотический",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Личи",
+          "brand": "Element",
+          "percentage": 55,
+          "tobaccoType": "Virginia",
+          "amount": 14,
+          "unit": "г"
+        },
+        {
+          "name": "Рамбутан",
+          "brand": "Azure",
+          "percentage": 35,
+          "tobaccoType": "Virginia",
+          "amount": 9,
+          "unit": "г"
+        },
+        {
+          "name": "Легкий Лед",
+          "brand": "Daily Hookah",
+          "percentage": 10,
+          "tobaccoType": "Virginia",
+          "amount": 2,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Funnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Tom Cococha",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Средний",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Funnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 55% Lychee, 35% Rambutan, 10% Light Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно распределите смесь."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Установите 2 угля Tom Cococha."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Прогрейте 2-3 минуты перед курением."
+        }
+      ],
+      "tips": [
+        "Легкий холодок подчеркивает экзотику",
+        "Отличный выбор для новичков",
+        "Можно добавить лёд для усиления свежести"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "экзотика",
+        "личи",
+        "рамбутан",
+        "холодок",
+        "легкая",
+        "азиатский"
+      ],
+      "rating": 4.5,
+      "reviews": 135,
+      "likes": 98,
+      "flavorCategory": "ekzotika",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "legkiy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    },
+    {
+      "id": 685,
+      "name": "ekzotika-guava-bez-myaty-silnyy-kholod-legkaya-krepost",
+      "title": "Гуава-карамбола с сильным ледяным эффектом (лёгкая)",
+      "description": "Тропический микс с мощным ледяным ударом. Освежающий контраст сладости и холода.",
+      "preparationTime": "10-12 минут",
+      "smokingDuration": "45-50 минут",
+      "difficulty": "Легко",
+      "recipeType": "Экзотический",
+      "persons": 1,
+      "ingredients": [
+        {
+          "name": "Гуава",
+          "brand": "Fumari",
+          "percentage": 50,
+          "tobaccoType": "Virginia",
+          "amount": 13,
+          "unit": "г"
+        },
+        {
+          "name": "Карамбола",
+          "brand": "Adalya",
+          "percentage": 30,
+          "tobaccoType": "Virginia",
+          "amount": 8,
+          "unit": "г"
+        },
+        {
+          "name": "Сильный Лед",
+          "brand": "Daily Hookah",
+          "percentage": 20,
+          "tobaccoType": "Virginia",
+          "amount": 5,
+          "unit": "г"
+        }
+      ],
+      "bowlType": "Phunnel",
+      "packingMethod": "Воздушная",
+      "charcoal": {
+        "type": "Кокосовый",
+        "brand": "Cocobrico",
+        "pieces": 2,
+        "size": "25мм куб"
+      },
+      "smokeLevel": "Высокий",
+      "steps": [
+        {
+          "title": "Шаг 1",
+          "text": "Подготовьте чашу Phunnel."
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Смешайте: 50% Guava, 30% Starfruit, 20% Strong Ice."
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Воздушно забейте табак."
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Разместите 2 угля Cocobrico."
+        },
+        {
+          "title": "Шаг 5",
+          "text": "Дайте прогреться 3-4 минуты."
+        }
+      ],
+      "tips": [
+        "Обязательно используйте лёд в колбе",
+        "Идеально для жаркого дня",
+        "Холод раскрывает тропические ноты"
+      ],
+      "imageMain": "/mock.webp",
+      "tags": [
+        "экзотика",
+        "гуава",
+        "карамбола",
+        "ледяной",
+        "легкая",
+        "летний"
+      ],
+      "rating": 4.4,
+      "reviews": 120,
+      "likes": 86,
+      "flavorCategory": "ekzotika",
+      "mintCategory": "bez-myaty",
+      "coolingCategory": "silnyy-kholod",
+      "strengthCategory": "legkaya-krepost"
+    }
+  ]
+}
