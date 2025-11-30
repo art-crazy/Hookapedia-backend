@@ -53,6 +53,9 @@ export class SyncSchema1764540759100 implements MigrationInterface {
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
+        // Clear existing data to avoid NOT NULL violations when reverting columns
+        await queryRunner.query(`DELETE FROM "recipes"`);
+
         await queryRunner.query(`ALTER TABLE "collection_recipes_recipes" DROP CONSTRAINT "FK_60a4732fd3a891439880420deed"`);
         await queryRunner.query(`ALTER TABLE "collection_recipes_recipes" DROP CONSTRAINT "FK_bd010bbf495a3d3dd689ad51f65"`);
         await queryRunner.query(`ALTER TABLE "ingredient" DROP CONSTRAINT "FK_a19a4b507b9e2d1efd2d73b37bc"`);
