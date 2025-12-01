@@ -67,8 +67,65 @@ export async function seedRecipes(dataSource: DataSource) {
         console.log(`Recipe created with ID: ${recipeData.id}`);
         created++;
       } else {
-        console.log(`Recipe already exists: ${recipeData.title} - skipping`);
-        skipped++;
+        console.log(`Recipe already exists: ${recipeData.title} - updating`);
+
+        await recipeRepository.query(`
+          UPDATE recipes SET
+            name = $2,
+            title = $3,
+            description = $4,
+            "preparationTime" = $5,
+            "smokingDuration" = $6,
+            difficulty = $7,
+            "recipeType" = $8,
+            persons = $9,
+            ingredients = $10,
+            "bowlType" = $11,
+            "packingMethod" = $12,
+            charcoal = $13,
+            "smokeLevel" = $14,
+            steps = $15,
+            tips = $16,
+            "imageMain" = $17,
+            tags = $18,
+            rating = $19,
+            reviews = $20,
+            likes = $21,
+            "flavorCategory" = $22,
+            "mintCategory" = $23,
+            "coolingCategory" = $24,
+            "strengthCategory" = $25,
+            "updatedAt" = NOW()
+          WHERE id = $1
+        `, [
+          recipeData.id,
+          recipeData.name,
+          recipeData.title,
+          recipeData.description,
+          recipeData.preparationTime,
+          recipeData.smokingDuration,
+          recipeData.difficulty,
+          recipeData.recipeType,
+          recipeData.persons,
+          JSON.stringify(recipeData.ingredients),
+          recipeData.bowlType,
+          recipeData.packingMethod,
+          JSON.stringify(recipeData.charcoal),
+          recipeData.smokeLevel,
+          JSON.stringify(recipeData.steps),
+          JSON.stringify(recipeData.tips || []),
+          recipeData.imageMain || '/mock.webp',
+          recipeData.tags.join(','),
+          recipeData.rating,
+          recipeData.reviews,
+          recipeData.likes,
+          recipeData.flavorCategory,
+          recipeData.mintCategory,
+          recipeData.coolingCategory,
+          recipeData.strengthCategory
+        ]);
+
+        updated++;
       }
     } catch (error) {
       console.error(`Error processing recipe ${recipeData.id}:`, error);

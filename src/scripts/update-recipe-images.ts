@@ -1,22 +1,31 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const filePath = path.join(__dirname, '../data/recipes/by-strength/krepkaya-krepost/deserty.json');
-const content = fs.readFileSync(filePath, 'utf-8');
-const data = JSON.parse(content);
+const baseDir = path.join(__dirname, '../data/recipes/by-strength/krepkaya-krepost');
+const files = ['deserty.json', 'ekzotika.json'];
 
-const updates = {
-    740: '/recipe-images/vanilla_caramel_mint.png',
-    741: '/recipe-images/deserty_shokolad_s_myatoy_legkiy_kholod_krepkaya_krepost.png',
-    742: '/recipe-images/deserty_pechenie_s_myatoy_silnyy_kholod_krepkaya_krepost.png',
-    743: '/recipe-images/deserty_vanil_bez_myaty_bez_kholoda_krepkaya_krepost.png'
+const updates: Record<number, string> = {
+    755: '/recipe-images/ekzotika_mango_bez_myaty_bez_kholoda_krepkaya_krepost.png',
+    756: '/recipe-images/ekzotika_lichi_bez_myaty_legkiy_kholod_krepkaya_krepost.png'
 };
 
-for (const recipe of data.recipes) {
-    if (updates[recipe.id]) {
-        recipe.imageMain = updates[recipe.id];
+for (const file of files) {
+    const filePath = path.join(baseDir, file);
+    if (!fs.existsSync(filePath)) continue;
+
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const data = JSON.parse(content);
+    let modified = false;
+
+    for (const recipe of data.recipes) {
+        if (updates[recipe.id]) {
+            recipe.imageMain = updates[recipe.id];
+            modified = true;
+        }
+    }
+
+    if (modified) {
+        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+        console.log(`Updated ${file}`);
     }
 }
-
-fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-console.log('Updated deserty.json');

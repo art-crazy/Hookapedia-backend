@@ -68,7 +68,7 @@ function scanRecipes() {
         }
     }
 
-    console.log(JSON.stringify(tasks, null, 2));
+    fs.writeFileSync('tasks.json', JSON.stringify(tasks.slice(0, 5), null, 2));
 }
 
 scanRecipes();
