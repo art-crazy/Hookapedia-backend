@@ -1,19 +1,5 @@
 [
   {
-    "id": 755,
-    "name": "ekzotika-mango-bez-myaty-bez-kholoda-krepkaya-krepost",
-    "filePath": "C:\\Users\\artcr\\WebstormProjects\\Hookapedia-all\\Hookapedia-backend\\src\\data\\recipes\\by-strength\\krepkaya-krepost\\ekzotika.json",
-    "prompt": "Professional macro photography of a glass bowl filled with Манго, Папайя, ice cubes, and fresh mint leaves. Swirling colorful smoke surrounding the bowl. Dark textured slate background, dramatic cinematic lighting, vibrant colors, hyper-realistic, raw photo, sharp focus, highly detailed texture, 8k resolution.",
-    "targetImageName": "ekzotika_mango_bez_myaty_bez_kholoda_krepkaya_krepost"
-  },
-  {
-    "id": 756,
-    "name": "ekzotika-lichi-bez-myaty-legkiy-kholod-krepkaya-krepost",
-    "filePath": "C:\\Users\\artcr\\WebstormProjects\\Hookapedia-all\\Hookapedia-backend\\src\\data\\recipes\\by-strength\\krepkaya-krepost\\ekzotika.json",
-    "prompt": "Professional macro photography of a glass bowl filled with Личи, Рамбутан, Легкий Лед, ice cubes, and fresh mint leaves. Swirling colorful smoke surrounding the bowl. Dark textured slate background, dramatic cinematic lighting, vibrant colors, hyper-realistic, raw photo, sharp focus, highly detailed texture, 8k resolution.",
-    "targetImageName": "ekzotika_lichi_bez_myaty_legkiy_kholod_krepkaya_krepost"
-  },
-  {
     "id": 757,
     "name": "ekzotika-guava-bez-myaty-silnyy-kholod-krepkaya-krepost",
     "filePath": "C:\\Users\\artcr\\WebstormProjects\\Hookapedia-all\\Hookapedia-backend\\src\\data\\recipes\\by-strength\\krepkaya-krepost\\ekzotika.json",
@@ -33,5 +19,19 @@
     "filePath": "C:\\Users\\artcr\\WebstormProjects\\Hookapedia-all\\Hookapedia-backend\\src\\data\\recipes\\by-strength\\krepkaya-krepost\\frukty.json",
     "prompt": "Professional macro photography of a glass bowl filled with Персик, Нектарин, Мята, Легкий Лед, ice cubes, and fresh mint leaves. Swirling colorful smoke surrounding the bowl. Dark textured slate background, dramatic cinematic lighting, vibrant colors, hyper-realistic, raw photo, sharp focus, highly detailed texture, 8k resolution.",
     "targetImageName": "frukty_persik_s_myatoy_legkiy_kholod_krepkaya_krepost"
+  },
+  {
+    "id": 724,
+    "name": "frukty-vinograd-s-myatoy-silnyy-kholod-krepkaya-krepost",
+    "filePath": "C:\\Users\\artcr\\WebstormProjects\\Hookapedia-all\\Hookapedia-backend\\src\\data\\recipes\\by-strength\\krepkaya-krepost\\frukty.json",
+    "prompt": "Professional macro photography of a glass bowl filled with Виноград, Дыня, Мята, Сильный Лед, ice cubes, and fresh mint leaves. Swirling colorful smoke surrounding the bowl. Dark textured slate background, dramatic cinematic lighting, vibrant colors, hyper-realistic, raw photo, sharp focus, highly detailed texture, 8k resolution.",
+    "targetImageName": "frukty_vinograd_s_myatoy_silnyy_kholod_krepkaya_krepost"
+  },
+  {
+    "id": 725,
+    "name": "frukty-yabloko-bez-myaty-bez-kholoda-krepkaya-krepost",
+    "filePath": "C:\\Users\\artcr\\WebstormProjects\\Hookapedia-all\\Hookapedia-backend\\src\\data\\recipes\\by-strength\\krepkaya-krepost\\frukty.json",
+    "prompt": "Professional macro photography of a glass bowl filled with Яблоко, Груша, ice cubes, and fresh mint leaves. Swirling colorful smoke surrounding the bowl. Dark textured slate background, dramatic cinematic lighting, vibrant colors, hyper-realistic, raw photo, sharp focus, highly detailed texture, 8k resolution.",
+    "targetImageName": "frukty_yabloko_bez_myaty_bez_kholoda_krepkaya_krepost"
   }
 ]

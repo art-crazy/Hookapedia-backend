@@ -5,8 +5,7 @@ const baseDir = path.join(__dirname, '../data/recipes/by-strength/krepkaya-krepo
 const files = ['deserty.json', 'ekzotika.json'];
 
 const updates: Record<number, string> = {
-    755: '/recipe-images/ekzotika_mango_bez_myaty_bez_kholoda_krepkaya_krepost.png',
-    756: '/recipe-images/ekzotika_lichi_bez_myaty_legkiy_kholod_krepkaya_krepost.png'
+    757: '/recipe-images/ekzotika_guava_bez_myaty_silnyy_kholod_krepkaya_krepost.png'
 };
 
 for (const file of files) {
