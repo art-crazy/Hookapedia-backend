@@ -29,7 +29,7 @@ function validateRecipes() {
                 if (!valid) {
                     console.error(`  ❌ Invalid: ${filePath}`);
                     validate.errors?.forEach(err => {
-                        console.error(`    - ${err.instancePath} ${err.message}`);
+                        console.error(`    - ${(err as any).instancePath} ${err.message}`);
                     });
                     hasErrors = true;
                 } else {

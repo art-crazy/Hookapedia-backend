@@ -1,7 +1,9 @@
 import { DataSource } from 'typeorm';
 import { seedRecipes } from './recipe.seed';
+import { seedUsers } from './user.seed';
 import { Recipe } from '../entities/recipe.entity';
 import { Category } from '../entities/category.entity';
+import { User } from '../entities/user.entity';
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 
@@ -24,7 +26,7 @@ async function runSeed() {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
-    entities: [Recipe, Category],
+    entities: [Recipe, Category, User],
     synchronize: false,
     migrations: ['src/migrations/*.ts'],
     migrationsRun: false,
@@ -46,6 +48,10 @@ async function runSeed() {
 
     console.log('Starting to seed recipes...');
     await seedRecipes(dataSource);
+    
+    console.log('Starting to seed users...');
+    await seedUsers(dataSource);
+    
     console.log('Seeding completed successfully');
 
     await dataSource.destroy();
